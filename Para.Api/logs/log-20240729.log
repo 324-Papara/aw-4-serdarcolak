@@ -1,0 +1,2024 @@
+2024-07-29 11:12:38.108 [INF] Application is starting...
+2024-07-29 11:12:40.962 [INF] Start installing Hangfire SQL objects...
+2024-07-29 11:12:42.628 [INF] Hangfire SQL objects installed.
+2024-07-29 11:12:43.835 [INF] Starting Hangfire Server using job storage: 'SQL Server: EGEPC103@padb'
+2024-07-29 11:12:43.836 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-07-29 11:12:43.836 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-07-29 11:12:43.884 [DBG] Execution loop BackgroundServerProcess:3ec6b6f6 has started in 32,7544 ms
+2024-07-29 11:12:43.983 [VRB] Server egepc103:22692:3cbcfcec is announcing itself...
+2024-07-29 11:12:44.331 [INF] Server egepc103:22692:3cbcfcec successfully announced in 347,1269 ms
+2024-07-29 11:12:44.346 [DBG] Execution loop ServerHeartbeatProcess:5cb63878 has started in 13,414 ms
+2024-07-29 11:12:44.347 [INF] Server egepc103:22692:3cbcfcec is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-07-29 11:12:44.352 [DBG] Execution loop ServerWatchdog:a386c4a7 has started in 5,3982 ms
+2024-07-29 11:12:44.358 [DBG] Execution loop ServerJobCancellationWatcher:eeda4bf6 has started in 8,9307 ms
+2024-07-29 11:12:44.359 [VRB] Checking for aborted jobs...
+2024-07-29 11:12:44.359 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:12:44.360 [VRB] No newly aborted jobs found.
+2024-07-29 11:12:44.366 [DBG] Execution loop ExpirationManager:f4fc6bda has started in 7,7824 ms
+2024-07-29 11:12:44.372 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-07-29 11:12:44.376 [DBG] Execution loop CountersAggregator:b69dac92 has started in 12,3967 ms
+2024-07-29 11:12:44.377 [DBG] Aggregating records in 'Counter' table...
+2024-07-29 11:12:44.390 [DBG] Execution loop SqlServerHeartbeatProcess:1643b4df has started in 21,1126 ms
+2024-07-29 11:12:44.402 [DBG] Execution loop Worker:eb711c77 has started in 14,0143 ms
+2024-07-29 11:12:44.413 [VRB] Records from the 'Counter' table aggregated.
+2024-07-29 11:12:44.410 [DBG] Execution loop Worker:0b2f1859 has started in 24,0388 ms
+2024-07-29 11:12:44.415 [DBG] Execution loop Worker:206c7b01 has started in 29,3934 ms
+2024-07-29 11:12:44.421 [DBG] Execution loop Worker:a77d129f has started in 35,052 ms
+2024-07-29 11:12:44.427 [DBG] Execution loop Worker:efe1a2da has started in 40,9283 ms
+2024-07-29 11:12:44.431 [DBG] Execution loop Worker:d7e66b81 has started in 44,4879 ms
+2024-07-29 11:12:44.434 [DBG] Execution loop Worker:9cafaa16 has started in 48,0457 ms
+2024-07-29 11:12:44.442 [DBG] Execution loop Worker:e2d86938 has started in 56,1867 ms
+2024-07-29 11:12:44.445 [DBG] Execution loop Worker:d6078bda has started in 59,1164 ms
+2024-07-29 11:12:44.452 [DBG] Execution loop Worker:7ee3fde3 has started in 65,2311 ms
+2024-07-29 11:12:44.455 [DBG] Execution loop Worker:06d62022 has started in 68,3594 ms
+2024-07-29 11:12:44.460 [DBG] Execution loop Worker:4fe6170d has started in 74,0586 ms
+2024-07-29 11:12:44.468 [DBG] Execution loop Worker:3fe8e5e2 has started in 81,2709 ms
+2024-07-29 11:12:44.475 [DBG] Execution loop Worker:f6ee81de has started in 88,0124 ms
+2024-07-29 11:12:44.479 [DBG] Execution loop Worker:ff4064ba has started in 91,8771 ms
+2024-07-29 11:12:44.513 [DBG] Execution loop Worker:b195d7bc has started in 127,3932 ms
+2024-07-29 11:12:44.513 [DBG] Execution loop Worker:748576a4 has started in 127,5087 ms
+2024-07-29 11:12:44.513 [DBG] Execution loop Worker:defdca92 has started in 127,4754 ms
+2024-07-29 11:12:44.520 [DBG] Execution loop Worker:530d89f5 has started in 133,6162 ms
+2024-07-29 11:12:44.525 [DBG] Execution loop Worker:587adc02 has started in 139,2598 ms
+2024-07-29 11:12:44.530 [DBG] Execution loop DelayedJobScheduler:210e6103 has started in 10,1416 ms
+2024-07-29 11:12:44.543 [INF] Server egepc103:22692:3cbcfcec all the dispatchers started
+2024-07-29 11:12:44.551 [DBG] Execution loop RecurringJobScheduler:a8224c55 has started in 24,3312 ms
+2024-07-29 11:12:44.558 [VRB] Outdated records removed from the 'AggregatedCounter' table.
+2024-07-29 11:12:44.558 [DBG] Removing outdated records from the 'Job' table...
+2024-07-29 11:12:44.656 [VRB] Outdated records removed from the 'Job' table.
+2024-07-29 11:12:44.656 [DBG] Removing outdated records from the 'List' table...
+2024-07-29 11:12:44.678 [VRB] Outdated records removed from the 'List' table.
+2024-07-29 11:12:44.678 [DBG] Removing outdated records from the 'Set' table...
+2024-07-29 11:12:44.699 [VRB] Outdated records removed from the 'Set' table.
+2024-07-29 11:12:44.699 [DBG] Removing outdated records from the 'Hash' table...
+2024-07-29 11:12:44.727 [VRB] Outdated records removed from the 'Hash' table.
+2024-07-29 11:12:49.364 [VRB] Checking for aborted jobs...
+2024-07-29 11:12:49.365 [VRB] No newly aborted jobs found.
+2024-07-29 11:12:54.368 [VRB] Checking for aborted jobs...
+2024-07-29 11:12:54.369 [VRB] No newly aborted jobs found.
+2024-07-29 11:12:59.380 [VRB] Checking for aborted jobs...
+2024-07-29 11:12:59.380 [VRB] No newly aborted jobs found.
+2024-07-29 11:13:04.396 [VRB] Checking for aborted jobs...
+2024-07-29 11:13:04.396 [VRB] No newly aborted jobs found.
+2024-07-29 11:13:09.410 [VRB] Checking for aborted jobs...
+2024-07-29 11:13:09.412 [VRB] No newly aborted jobs found.
+2024-07-29 11:13:14.380 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:13:14.381 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:13:14.417 [VRB] Checking for aborted jobs...
+2024-07-29 11:13:14.418 [VRB] No newly aborted jobs found.
+2024-07-29 11:13:19.421 [VRB] Checking for aborted jobs...
+2024-07-29 11:13:19.421 [VRB] No newly aborted jobs found.
+2024-07-29 11:13:24.434 [VRB] Checking for aborted jobs...
+2024-07-29 11:13:24.434 [VRB] No newly aborted jobs found.
+2024-07-29 11:13:29.439 [VRB] Checking for aborted jobs...
+2024-07-29 11:13:29.439 [VRB] No newly aborted jobs found.
+2024-07-29 11:13:30.301 [INF] LogRequestLoggingMiddleware.Invoke
+2024-07-29 11:13:30.696 [INF] -------------Request-Begin------------
+2024-07-29 11:13:30.696 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Users 
+QueryString:  
+Request Body: {
+  "CustomerId": 1,
+  "UserName": "serdar",
+  "Password": "serdar",
+  "Email": "serdarcolak.99@hotmail.com",
+  "Role": "Customer",
+  "FirstName": "Serdar",
+  "LastName": "Çolak"
+}
+2024-07-29 11:13:30.696 [INF] 
+
+2024-07-29 11:13:30.696 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Users 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2024-07-29 11:13:30.697 [INF] -------------Request-End------------
+2024-07-29 11:13:34.450 [VRB] Checking for aborted jobs...
+2024-07-29 11:13:34.450 [VRB] No newly aborted jobs found.
+2024-07-29 11:13:39.455 [VRB] Checking for aborted jobs...
+2024-07-29 11:13:39.457 [VRB] No newly aborted jobs found.
+2024-07-29 11:13:42.766 [INF] LogRequestLoggingMiddleware.Invoke
+2024-07-29 11:13:42.773 [INF] -------------Request-Begin------------
+2024-07-29 11:13:42.773 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Users 
+QueryString:  
+Request Body: {
+  "CustomerId": 1,
+  "UserName": "serdar",
+  "Password": "serdar",
+  "Email": "serdarcolak.99@hotmail.com",
+  "Role": "admin",
+  "FirstName": "Serdar",
+  "LastName": "Çolak"
+}
+2024-07-29 11:13:42.773 [INF] 
+
+2024-07-29 11:13:42.774 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Users 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2024-07-29 11:13:42.774 [INF] -------------Request-End------------
+2024-07-29 11:13:44.396 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:13:44.396 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:13:44.471 [VRB] Checking for aborted jobs...
+2024-07-29 11:13:44.472 [VRB] No newly aborted jobs found.
+2024-07-29 11:13:49.482 [VRB] Checking for aborted jobs...
+2024-07-29 11:13:49.482 [VRB] No newly aborted jobs found.
+2024-07-29 11:13:54.485 [VRB] Checking for aborted jobs...
+2024-07-29 11:13:54.485 [VRB] No newly aborted jobs found.
+2024-07-29 11:13:59.495 [VRB] Checking for aborted jobs...
+2024-07-29 11:13:59.495 [VRB] No newly aborted jobs found.
+2024-07-29 11:14:04.501 [VRB] Checking for aborted jobs...
+2024-07-29 11:14:04.502 [VRB] No newly aborted jobs found.
+2024-07-29 11:14:09.505 [VRB] Checking for aborted jobs...
+2024-07-29 11:14:09.506 [VRB] No newly aborted jobs found.
+2024-07-29 11:14:14.413 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:14:14.413 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:14:14.520 [VRB] Checking for aborted jobs...
+2024-07-29 11:14:14.521 [VRB] No newly aborted jobs found.
+2024-07-29 11:14:19.535 [VRB] Checking for aborted jobs...
+2024-07-29 11:14:19.536 [VRB] No newly aborted jobs found.
+2024-07-29 11:14:24.536 [VRB] Checking for aborted jobs...
+2024-07-29 11:14:24.536 [VRB] No newly aborted jobs found.
+2024-07-29 11:14:29.537 [VRB] Checking for aborted jobs...
+2024-07-29 11:14:29.538 [VRB] No newly aborted jobs found.
+2024-07-29 11:14:34.548 [VRB] Checking for aborted jobs...
+2024-07-29 11:14:34.548 [VRB] No newly aborted jobs found.
+2024-07-29 11:14:39.563 [VRB] Checking for aborted jobs...
+2024-07-29 11:14:39.564 [VRB] No newly aborted jobs found.
+2024-07-29 11:14:44.428 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:14:44.429 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:14:44.566 [VRB] Checking for aborted jobs...
+2024-07-29 11:14:44.566 [VRB] No newly aborted jobs found.
+2024-07-29 11:14:49.572 [VRB] Checking for aborted jobs...
+2024-07-29 11:14:49.572 [VRB] No newly aborted jobs found.
+2024-07-29 11:14:54.572 [VRB] Checking for aborted jobs...
+2024-07-29 11:14:54.573 [VRB] No newly aborted jobs found.
+2024-07-29 11:14:59.574 [VRB] Checking for aborted jobs...
+2024-07-29 11:14:59.574 [VRB] No newly aborted jobs found.
+2024-07-29 11:15:04.585 [VRB] Checking for aborted jobs...
+2024-07-29 11:15:04.586 [VRB] No newly aborted jobs found.
+2024-07-29 11:15:09.595 [VRB] Checking for aborted jobs...
+2024-07-29 11:15:09.595 [VRB] No newly aborted jobs found.
+2024-07-29 11:15:14.436 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:15:14.436 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:15:14.607 [VRB] Checking for aborted jobs...
+2024-07-29 11:15:14.607 [VRB] No newly aborted jobs found.
+2024-07-29 11:15:15.265 [INF] LogRequestLoggingMiddleware.Invoke
+2024-07-29 11:15:15.269 [INF] -------------Request-Begin------------
+2024-07-29 11:15:15.270 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Users 
+QueryString:  
+Request Body: 
+2024-07-29 11:15:15.270 [INF] 
+
+2024-07-29 11:15:15.270 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Users 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2024-07-29 11:15:15.270 [INF] -------------Request-End------------
+2024-07-29 11:15:19.620 [VRB] Checking for aborted jobs...
+2024-07-29 11:15:19.620 [VRB] No newly aborted jobs found.
+2024-07-29 11:15:24.627 [VRB] Checking for aborted jobs...
+2024-07-29 11:15:24.628 [VRB] No newly aborted jobs found.
+2024-07-29 11:15:29.628 [VRB] Checking for aborted jobs...
+2024-07-29 11:15:29.628 [VRB] No newly aborted jobs found.
+2024-07-29 11:15:34.636 [VRB] Checking for aborted jobs...
+2024-07-29 11:15:34.636 [VRB] No newly aborted jobs found.
+2024-07-29 11:15:39.650 [VRB] Checking for aborted jobs...
+2024-07-29 11:15:39.653 [VRB] No newly aborted jobs found.
+2024-07-29 11:15:44.458 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:15:44.458 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:15:44.668 [VRB] Checking for aborted jobs...
+2024-07-29 11:15:44.669 [VRB] No newly aborted jobs found.
+2024-07-29 11:15:49.669 [VRB] Checking for aborted jobs...
+2024-07-29 11:15:49.669 [VRB] No newly aborted jobs found.
+2024-07-29 11:15:54.674 [VRB] Checking for aborted jobs...
+2024-07-29 11:15:54.674 [VRB] No newly aborted jobs found.
+2024-07-29 11:15:54.832 [INF] LogRequestLoggingMiddleware.Invoke
+2024-07-29 11:15:54.834 [INF] -------------Request-Begin------------
+2024-07-29 11:15:54.834 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Accounts 
+QueryString:  
+Request Body: {
+  "CustomerId": 1,
+  "Name": "serdar",
+  "CurrencyCode": "TUR"
+}
+2024-07-29 11:15:54.834 [INF] 
+
+2024-07-29 11:15:54.834 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Accounts 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2024-07-29 11:15:54.834 [INF] -------------Request-End------------
+2024-07-29 11:15:59.677 [VRB] Checking for aborted jobs...
+2024-07-29 11:15:59.677 [VRB] No newly aborted jobs found.
+2024-07-29 11:16:04.683 [VRB] Checking for aborted jobs...
+2024-07-29 11:16:04.683 [VRB] No newly aborted jobs found.
+2024-07-29 11:16:09.690 [VRB] Checking for aborted jobs...
+2024-07-29 11:16:09.691 [VRB] No newly aborted jobs found.
+2024-07-29 11:16:14.467 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:16:14.467 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:16:14.697 [VRB] Checking for aborted jobs...
+2024-07-29 11:16:14.697 [VRB] No newly aborted jobs found.
+2024-07-29 11:16:19.700 [VRB] Checking for aborted jobs...
+2024-07-29 11:16:19.700 [VRB] No newly aborted jobs found.
+2024-07-29 11:16:24.707 [VRB] Checking for aborted jobs...
+2024-07-29 11:16:24.708 [VRB] No newly aborted jobs found.
+2024-07-29 11:16:29.713 [VRB] Checking for aborted jobs...
+2024-07-29 11:16:29.713 [VRB] No newly aborted jobs found.
+2024-07-29 11:16:34.722 [VRB] Checking for aborted jobs...
+2024-07-29 11:16:34.722 [VRB] No newly aborted jobs found.
+2024-07-29 11:16:39.726 [VRB] Checking for aborted jobs...
+2024-07-29 11:16:39.726 [VRB] No newly aborted jobs found.
+2024-07-29 11:16:44.477 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:16:44.477 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:16:44.737 [VRB] Checking for aborted jobs...
+2024-07-29 11:16:44.737 [VRB] No newly aborted jobs found.
+2024-07-29 11:16:49.743 [VRB] Checking for aborted jobs...
+2024-07-29 11:16:49.743 [VRB] No newly aborted jobs found.
+2024-07-29 11:16:54.749 [VRB] Checking for aborted jobs...
+2024-07-29 11:16:54.749 [VRB] No newly aborted jobs found.
+2024-07-29 11:16:59.749 [VRB] Checking for aborted jobs...
+2024-07-29 11:16:59.750 [VRB] No newly aborted jobs found.
+2024-07-29 11:17:04.761 [VRB] Checking for aborted jobs...
+2024-07-29 11:17:04.762 [VRB] No newly aborted jobs found.
+2024-07-29 11:17:09.774 [VRB] Checking for aborted jobs...
+2024-07-29 11:17:09.774 [VRB] No newly aborted jobs found.
+2024-07-29 11:17:14.482 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:17:14.483 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:17:14.785 [VRB] Checking for aborted jobs...
+2024-07-29 11:17:14.785 [VRB] No newly aborted jobs found.
+2024-07-29 11:17:19.799 [VRB] Checking for aborted jobs...
+2024-07-29 11:17:19.799 [VRB] No newly aborted jobs found.
+2024-07-29 11:17:24.804 [VRB] Checking for aborted jobs...
+2024-07-29 11:17:24.804 [VRB] No newly aborted jobs found.
+2024-07-29 11:17:29.808 [VRB] Checking for aborted jobs...
+2024-07-29 11:17:29.808 [VRB] No newly aborted jobs found.
+2024-07-29 11:17:34.823 [VRB] Checking for aborted jobs...
+2024-07-29 11:17:34.824 [VRB] No newly aborted jobs found.
+2024-07-29 11:17:39.835 [VRB] Checking for aborted jobs...
+2024-07-29 11:17:39.835 [VRB] No newly aborted jobs found.
+2024-07-29 11:17:44.423 [DBG] Aggregating records in 'Counter' table...
+2024-07-29 11:17:44.440 [VRB] Records from the 'Counter' table aggregated.
+2024-07-29 11:17:44.487 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:17:44.487 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:17:44.847 [VRB] Checking for aborted jobs...
+2024-07-29 11:17:44.848 [VRB] No newly aborted jobs found.
+2024-07-29 11:17:49.847 [VRB] Checking for aborted jobs...
+2024-07-29 11:17:49.848 [VRB] No newly aborted jobs found.
+2024-07-29 11:17:54.848 [VRB] Checking for aborted jobs...
+2024-07-29 11:17:54.849 [VRB] No newly aborted jobs found.
+2024-07-29 11:17:59.866 [VRB] Checking for aborted jobs...
+2024-07-29 11:17:59.866 [VRB] No newly aborted jobs found.
+2024-07-29 11:18:04.880 [VRB] Checking for aborted jobs...
+2024-07-29 11:18:04.880 [VRB] No newly aborted jobs found.
+2024-07-29 11:18:09.892 [VRB] Checking for aborted jobs...
+2024-07-29 11:18:09.893 [VRB] No newly aborted jobs found.
+2024-07-29 11:18:14.510 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:18:14.510 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:18:14.894 [VRB] Checking for aborted jobs...
+2024-07-29 11:18:14.894 [VRB] No newly aborted jobs found.
+2024-07-29 11:18:19.906 [VRB] Checking for aborted jobs...
+2024-07-29 11:18:19.906 [VRB] No newly aborted jobs found.
+2024-07-29 11:18:24.911 [VRB] Checking for aborted jobs...
+2024-07-29 11:18:24.911 [VRB] No newly aborted jobs found.
+2024-07-29 11:18:29.920 [VRB] Checking for aborted jobs...
+2024-07-29 11:18:29.921 [VRB] No newly aborted jobs found.
+2024-07-29 11:18:34.927 [VRB] Checking for aborted jobs...
+2024-07-29 11:18:34.928 [VRB] No newly aborted jobs found.
+2024-07-29 11:18:39.931 [VRB] Checking for aborted jobs...
+2024-07-29 11:18:39.931 [VRB] No newly aborted jobs found.
+2024-07-29 11:18:44.514 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:18:44.514 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:18:44.931 [VRB] Checking for aborted jobs...
+2024-07-29 11:18:44.932 [VRB] No newly aborted jobs found.
+2024-07-29 11:18:49.942 [VRB] Checking for aborted jobs...
+2024-07-29 11:18:49.942 [VRB] No newly aborted jobs found.
+2024-07-29 11:18:54.947 [VRB] Checking for aborted jobs...
+2024-07-29 11:18:54.947 [VRB] No newly aborted jobs found.
+2024-07-29 11:18:59.961 [VRB] Checking for aborted jobs...
+2024-07-29 11:18:59.961 [VRB] No newly aborted jobs found.
+2024-07-29 11:19:04.967 [VRB] Checking for aborted jobs...
+2024-07-29 11:19:04.967 [VRB] No newly aborted jobs found.
+2024-07-29 11:19:09.976 [VRB] Checking for aborted jobs...
+2024-07-29 11:19:09.976 [VRB] No newly aborted jobs found.
+2024-07-29 11:19:14.537 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:19:14.537 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:19:14.992 [VRB] Checking for aborted jobs...
+2024-07-29 11:19:14.992 [VRB] No newly aborted jobs found.
+2024-07-29 11:19:20.003 [VRB] Checking for aborted jobs...
+2024-07-29 11:19:20.003 [VRB] No newly aborted jobs found.
+2024-07-29 11:19:25.008 [VRB] Checking for aborted jobs...
+2024-07-29 11:19:25.008 [VRB] No newly aborted jobs found.
+2024-07-29 11:19:30.020 [VRB] Checking for aborted jobs...
+2024-07-29 11:19:30.020 [VRB] No newly aborted jobs found.
+2024-07-29 11:19:35.027 [VRB] Checking for aborted jobs...
+2024-07-29 11:19:35.027 [VRB] No newly aborted jobs found.
+2024-07-29 11:19:40.041 [VRB] Checking for aborted jobs...
+2024-07-29 11:19:40.041 [VRB] No newly aborted jobs found.
+2024-07-29 11:19:44.550 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:19:44.550 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:19:45.042 [VRB] Checking for aborted jobs...
+2024-07-29 11:19:45.042 [VRB] No newly aborted jobs found.
+2024-07-29 11:19:50.053 [VRB] Checking for aborted jobs...
+2024-07-29 11:19:50.053 [VRB] No newly aborted jobs found.
+2024-07-29 11:19:55.060 [VRB] Checking for aborted jobs...
+2024-07-29 11:19:55.061 [VRB] No newly aborted jobs found.
+2024-07-29 11:20:00.061 [VRB] Checking for aborted jobs...
+2024-07-29 11:20:00.061 [VRB] No newly aborted jobs found.
+2024-07-29 11:20:05.071 [VRB] Checking for aborted jobs...
+2024-07-29 11:20:05.071 [VRB] No newly aborted jobs found.
+2024-07-29 11:20:10.074 [VRB] Checking for aborted jobs...
+2024-07-29 11:20:10.074 [VRB] No newly aborted jobs found.
+2024-07-29 11:20:14.564 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:20:14.564 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:20:15.086 [VRB] Checking for aborted jobs...
+2024-07-29 11:20:15.087 [VRB] No newly aborted jobs found.
+2024-07-29 11:20:20.099 [VRB] Checking for aborted jobs...
+2024-07-29 11:20:20.100 [VRB] No newly aborted jobs found.
+2024-07-29 11:20:25.112 [VRB] Checking for aborted jobs...
+2024-07-29 11:20:25.112 [VRB] No newly aborted jobs found.
+2024-07-29 11:20:30.125 [VRB] Checking for aborted jobs...
+2024-07-29 11:20:30.125 [VRB] No newly aborted jobs found.
+2024-07-29 11:20:35.126 [VRB] Checking for aborted jobs...
+2024-07-29 11:20:35.127 [VRB] No newly aborted jobs found.
+2024-07-29 11:20:40.133 [VRB] Checking for aborted jobs...
+2024-07-29 11:20:40.133 [VRB] No newly aborted jobs found.
+2024-07-29 11:20:44.567 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:20:44.567 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:20:45.140 [VRB] Checking for aborted jobs...
+2024-07-29 11:20:45.141 [VRB] No newly aborted jobs found.
+2024-07-29 11:20:50.154 [VRB] Checking for aborted jobs...
+2024-07-29 11:20:50.155 [VRB] No newly aborted jobs found.
+2024-07-29 11:20:55.168 [VRB] Checking for aborted jobs...
+2024-07-29 11:20:55.168 [VRB] No newly aborted jobs found.
+2024-07-29 11:21:00.173 [VRB] Checking for aborted jobs...
+2024-07-29 11:21:00.173 [VRB] No newly aborted jobs found.
+2024-07-29 11:21:05.189 [VRB] Checking for aborted jobs...
+2024-07-29 11:21:05.190 [VRB] No newly aborted jobs found.
+2024-07-29 11:21:10.201 [VRB] Checking for aborted jobs...
+2024-07-29 11:21:10.201 [VRB] No newly aborted jobs found.
+2024-07-29 11:21:14.587 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:21:14.588 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:21:15.204 [VRB] Checking for aborted jobs...
+2024-07-29 11:21:15.204 [VRB] No newly aborted jobs found.
+2024-07-29 11:21:20.217 [VRB] Checking for aborted jobs...
+2024-07-29 11:21:20.217 [VRB] No newly aborted jobs found.
+2024-07-29 11:21:25.218 [VRB] Checking for aborted jobs...
+2024-07-29 11:21:25.218 [VRB] No newly aborted jobs found.
+2024-07-29 11:21:30.227 [VRB] Checking for aborted jobs...
+2024-07-29 11:21:30.227 [VRB] No newly aborted jobs found.
+2024-07-29 11:21:35.232 [VRB] Checking for aborted jobs...
+2024-07-29 11:21:35.232 [VRB] No newly aborted jobs found.
+2024-07-29 11:21:40.244 [VRB] Checking for aborted jobs...
+2024-07-29 11:21:40.244 [VRB] No newly aborted jobs found.
+2024-07-29 11:21:44.600 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:21:44.600 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:21:45.252 [VRB] Checking for aborted jobs...
+2024-07-29 11:21:45.252 [VRB] No newly aborted jobs found.
+2024-07-29 11:21:50.252 [VRB] Checking for aborted jobs...
+2024-07-29 11:21:50.253 [VRB] No newly aborted jobs found.
+2024-07-29 11:21:55.266 [VRB] Checking for aborted jobs...
+2024-07-29 11:21:55.267 [VRB] No newly aborted jobs found.
+2024-07-29 11:22:00.267 [VRB] Checking for aborted jobs...
+2024-07-29 11:22:00.267 [VRB] No newly aborted jobs found.
+2024-07-29 11:22:05.276 [VRB] Checking for aborted jobs...
+2024-07-29 11:22:05.276 [VRB] No newly aborted jobs found.
+2024-07-29 11:22:10.279 [VRB] Checking for aborted jobs...
+2024-07-29 11:22:10.279 [VRB] No newly aborted jobs found.
+2024-07-29 11:22:14.617 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:22:14.617 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:22:15.288 [VRB] Checking for aborted jobs...
+2024-07-29 11:22:15.288 [VRB] No newly aborted jobs found.
+2024-07-29 11:22:20.291 [VRB] Checking for aborted jobs...
+2024-07-29 11:22:20.292 [VRB] No newly aborted jobs found.
+2024-07-29 11:22:25.298 [VRB] Checking for aborted jobs...
+2024-07-29 11:22:25.298 [VRB] No newly aborted jobs found.
+2024-07-29 11:22:30.308 [VRB] Checking for aborted jobs...
+2024-07-29 11:22:30.308 [VRB] No newly aborted jobs found.
+2024-07-29 11:22:35.310 [VRB] Checking for aborted jobs...
+2024-07-29 11:22:35.310 [VRB] No newly aborted jobs found.
+2024-07-29 11:22:40.314 [VRB] Checking for aborted jobs...
+2024-07-29 11:22:40.314 [VRB] No newly aborted jobs found.
+2024-07-29 11:22:44.454 [DBG] Aggregating records in 'Counter' table...
+2024-07-29 11:22:44.476 [VRB] Records from the 'Counter' table aggregated.
+2024-07-29 11:22:44.628 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:22:44.628 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:22:45.323 [VRB] Checking for aborted jobs...
+2024-07-29 11:22:45.323 [VRB] No newly aborted jobs found.
+2024-07-29 11:22:50.326 [VRB] Checking for aborted jobs...
+2024-07-29 11:22:50.327 [VRB] No newly aborted jobs found.
+2024-07-29 11:22:55.342 [VRB] Checking for aborted jobs...
+2024-07-29 11:22:55.342 [VRB] No newly aborted jobs found.
+2024-07-29 11:23:00.355 [VRB] Checking for aborted jobs...
+2024-07-29 11:23:00.356 [VRB] No newly aborted jobs found.
+2024-07-29 11:23:05.367 [VRB] Checking for aborted jobs...
+2024-07-29 11:23:05.367 [VRB] No newly aborted jobs found.
+2024-07-29 11:23:10.373 [VRB] Checking for aborted jobs...
+2024-07-29 11:23:10.373 [VRB] No newly aborted jobs found.
+2024-07-29 11:23:14.642 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:23:14.643 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:23:15.383 [VRB] Checking for aborted jobs...
+2024-07-29 11:23:15.384 [VRB] No newly aborted jobs found.
+2024-07-29 11:23:20.394 [VRB] Checking for aborted jobs...
+2024-07-29 11:23:20.394 [VRB] No newly aborted jobs found.
+2024-07-29 11:23:25.407 [VRB] Checking for aborted jobs...
+2024-07-29 11:23:25.407 [VRB] No newly aborted jobs found.
+2024-07-29 11:23:30.421 [VRB] Checking for aborted jobs...
+2024-07-29 11:23:30.422 [VRB] No newly aborted jobs found.
+2024-07-29 11:23:35.434 [VRB] Checking for aborted jobs...
+2024-07-29 11:23:35.434 [VRB] No newly aborted jobs found.
+2024-07-29 11:23:40.448 [VRB] Checking for aborted jobs...
+2024-07-29 11:23:40.449 [VRB] No newly aborted jobs found.
+2024-07-29 11:23:44.662 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:23:44.662 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:23:45.449 [VRB] Checking for aborted jobs...
+2024-07-29 11:23:45.449 [VRB] No newly aborted jobs found.
+2024-07-29 11:23:50.462 [VRB] Checking for aborted jobs...
+2024-07-29 11:23:50.462 [VRB] No newly aborted jobs found.
+2024-07-29 11:23:55.463 [VRB] Checking for aborted jobs...
+2024-07-29 11:23:55.463 [VRB] No newly aborted jobs found.
+2024-07-29 11:24:00.472 [VRB] Checking for aborted jobs...
+2024-07-29 11:24:00.472 [VRB] No newly aborted jobs found.
+2024-07-29 11:24:05.480 [VRB] Checking for aborted jobs...
+2024-07-29 11:24:05.481 [VRB] No newly aborted jobs found.
+2024-07-29 11:24:10.486 [VRB] Checking for aborted jobs...
+2024-07-29 11:24:10.486 [VRB] No newly aborted jobs found.
+2024-07-29 11:24:14.677 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:24:14.678 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:24:15.502 [VRB] Checking for aborted jobs...
+2024-07-29 11:24:15.502 [VRB] No newly aborted jobs found.
+2024-07-29 11:24:20.516 [VRB] Checking for aborted jobs...
+2024-07-29 11:24:20.517 [VRB] No newly aborted jobs found.
+2024-07-29 11:24:25.524 [VRB] Checking for aborted jobs...
+2024-07-29 11:24:25.525 [VRB] No newly aborted jobs found.
+2024-07-29 11:24:30.534 [VRB] Checking for aborted jobs...
+2024-07-29 11:24:30.535 [VRB] No newly aborted jobs found.
+2024-07-29 11:24:35.541 [VRB] Checking for aborted jobs...
+2024-07-29 11:24:35.542 [VRB] No newly aborted jobs found.
+2024-07-29 11:24:40.544 [VRB] Checking for aborted jobs...
+2024-07-29 11:24:40.545 [VRB] No newly aborted jobs found.
+2024-07-29 11:24:44.682 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:24:44.682 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:24:45.551 [VRB] Checking for aborted jobs...
+2024-07-29 11:24:45.552 [VRB] No newly aborted jobs found.
+2024-07-29 11:24:50.554 [VRB] Checking for aborted jobs...
+2024-07-29 11:24:50.554 [VRB] No newly aborted jobs found.
+2024-07-29 11:24:55.562 [VRB] Checking for aborted jobs...
+2024-07-29 11:24:55.562 [VRB] No newly aborted jobs found.
+2024-07-29 11:25:00.569 [VRB] Checking for aborted jobs...
+2024-07-29 11:25:00.569 [VRB] No newly aborted jobs found.
+2024-07-29 11:25:05.578 [VRB] Checking for aborted jobs...
+2024-07-29 11:25:05.578 [VRB] No newly aborted jobs found.
+2024-07-29 11:25:10.584 [VRB] Checking for aborted jobs...
+2024-07-29 11:25:10.584 [VRB] No newly aborted jobs found.
+2024-07-29 11:25:14.684 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:25:14.684 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:25:15.587 [VRB] Checking for aborted jobs...
+2024-07-29 11:25:15.588 [VRB] No newly aborted jobs found.
+2024-07-29 11:25:20.600 [VRB] Checking for aborted jobs...
+2024-07-29 11:25:20.600 [VRB] No newly aborted jobs found.
+2024-07-29 11:25:25.610 [VRB] Checking for aborted jobs...
+2024-07-29 11:25:25.610 [VRB] No newly aborted jobs found.
+2024-07-29 11:25:30.625 [VRB] Checking for aborted jobs...
+2024-07-29 11:25:30.625 [VRB] No newly aborted jobs found.
+2024-07-29 11:25:35.633 [VRB] Checking for aborted jobs...
+2024-07-29 11:25:35.634 [VRB] No newly aborted jobs found.
+2024-07-29 11:25:40.647 [VRB] Checking for aborted jobs...
+2024-07-29 11:25:40.647 [VRB] No newly aborted jobs found.
+2024-07-29 11:25:44.700 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:25:44.700 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:25:45.662 [VRB] Checking for aborted jobs...
+2024-07-29 11:25:45.662 [VRB] No newly aborted jobs found.
+2024-07-29 11:25:50.666 [VRB] Checking for aborted jobs...
+2024-07-29 11:25:50.666 [VRB] No newly aborted jobs found.
+2024-07-29 11:25:55.667 [VRB] Checking for aborted jobs...
+2024-07-29 11:25:55.667 [VRB] No newly aborted jobs found.
+2024-07-29 11:26:00.670 [VRB] Checking for aborted jobs...
+2024-07-29 11:26:00.670 [VRB] No newly aborted jobs found.
+2024-07-29 11:26:05.680 [VRB] Checking for aborted jobs...
+2024-07-29 11:26:05.680 [VRB] No newly aborted jobs found.
+2024-07-29 11:26:10.688 [VRB] Checking for aborted jobs...
+2024-07-29 11:26:10.688 [VRB] No newly aborted jobs found.
+2024-07-29 11:26:14.710 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:26:14.711 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:26:15.689 [VRB] Checking for aborted jobs...
+2024-07-29 11:26:15.690 [VRB] No newly aborted jobs found.
+2024-07-29 11:26:20.705 [VRB] Checking for aborted jobs...
+2024-07-29 11:26:20.705 [VRB] No newly aborted jobs found.
+2024-07-29 11:26:25.720 [VRB] Checking for aborted jobs...
+2024-07-29 11:26:25.721 [VRB] No newly aborted jobs found.
+2024-07-29 11:26:30.730 [VRB] Checking for aborted jobs...
+2024-07-29 11:26:30.730 [VRB] No newly aborted jobs found.
+2024-07-29 11:26:35.733 [VRB] Checking for aborted jobs...
+2024-07-29 11:26:35.733 [VRB] No newly aborted jobs found.
+2024-07-29 11:26:40.741 [VRB] Checking for aborted jobs...
+2024-07-29 11:26:40.741 [VRB] No newly aborted jobs found.
+2024-07-29 11:26:44.720 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:26:44.721 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:26:45.756 [VRB] Checking for aborted jobs...
+2024-07-29 11:26:45.756 [VRB] No newly aborted jobs found.
+2024-07-29 11:26:50.762 [VRB] Checking for aborted jobs...
+2024-07-29 11:26:50.762 [VRB] No newly aborted jobs found.
+2024-07-29 11:26:55.767 [VRB] Checking for aborted jobs...
+2024-07-29 11:26:55.767 [VRB] No newly aborted jobs found.
+2024-07-29 11:27:00.770 [VRB] Checking for aborted jobs...
+2024-07-29 11:27:00.770 [VRB] No newly aborted jobs found.
+2024-07-29 11:27:05.778 [VRB] Checking for aborted jobs...
+2024-07-29 11:27:05.778 [VRB] No newly aborted jobs found.
+2024-07-29 11:27:10.781 [VRB] Checking for aborted jobs...
+2024-07-29 11:27:10.782 [VRB] No newly aborted jobs found.
+2024-07-29 11:27:14.725 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:27:14.725 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:27:15.792 [VRB] Checking for aborted jobs...
+2024-07-29 11:27:15.793 [VRB] No newly aborted jobs found.
+2024-07-29 11:27:20.806 [VRB] Checking for aborted jobs...
+2024-07-29 11:27:20.806 [VRB] No newly aborted jobs found.
+2024-07-29 11:27:25.818 [VRB] Checking for aborted jobs...
+2024-07-29 11:27:25.818 [VRB] No newly aborted jobs found.
+2024-07-29 11:27:30.824 [VRB] Checking for aborted jobs...
+2024-07-29 11:27:30.825 [VRB] No newly aborted jobs found.
+2024-07-29 11:27:35.830 [VRB] Checking for aborted jobs...
+2024-07-29 11:27:35.830 [VRB] No newly aborted jobs found.
+2024-07-29 11:27:40.833 [VRB] Checking for aborted jobs...
+2024-07-29 11:27:40.833 [VRB] No newly aborted jobs found.
+2024-07-29 11:27:44.477 [DBG] Aggregating records in 'Counter' table...
+2024-07-29 11:27:44.500 [VRB] Records from the 'Counter' table aggregated.
+2024-07-29 11:27:44.745 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:27:44.745 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:27:45.847 [VRB] Checking for aborted jobs...
+2024-07-29 11:27:45.848 [VRB] No newly aborted jobs found.
+2024-07-29 11:27:50.852 [VRB] Checking for aborted jobs...
+2024-07-29 11:27:50.853 [VRB] No newly aborted jobs found.
+2024-07-29 11:27:55.859 [VRB] Checking for aborted jobs...
+2024-07-29 11:27:55.860 [VRB] No newly aborted jobs found.
+2024-07-29 11:28:00.872 [VRB] Checking for aborted jobs...
+2024-07-29 11:28:00.873 [VRB] No newly aborted jobs found.
+2024-07-29 11:28:05.882 [VRB] Checking for aborted jobs...
+2024-07-29 11:28:05.882 [VRB] No newly aborted jobs found.
+2024-07-29 11:28:10.895 [VRB] Checking for aborted jobs...
+2024-07-29 11:28:10.896 [VRB] No newly aborted jobs found.
+2024-07-29 11:28:14.759 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:28:14.759 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:28:15.909 [VRB] Checking for aborted jobs...
+2024-07-29 11:28:15.910 [VRB] No newly aborted jobs found.
+2024-07-29 11:28:20.915 [VRB] Checking for aborted jobs...
+2024-07-29 11:28:20.916 [VRB] No newly aborted jobs found.
+2024-07-29 11:28:25.922 [VRB] Checking for aborted jobs...
+2024-07-29 11:28:25.923 [VRB] No newly aborted jobs found.
+2024-07-29 11:28:30.932 [VRB] Checking for aborted jobs...
+2024-07-29 11:28:30.933 [VRB] No newly aborted jobs found.
+2024-07-29 11:28:35.939 [VRB] Checking for aborted jobs...
+2024-07-29 11:28:35.939 [VRB] No newly aborted jobs found.
+2024-07-29 11:28:40.953 [VRB] Checking for aborted jobs...
+2024-07-29 11:28:40.953 [VRB] No newly aborted jobs found.
+2024-07-29 11:28:44.768 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:28:44.768 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:28:45.968 [VRB] Checking for aborted jobs...
+2024-07-29 11:28:45.969 [VRB] No newly aborted jobs found.
+2024-07-29 11:28:50.976 [VRB] Checking for aborted jobs...
+2024-07-29 11:28:50.977 [VRB] No newly aborted jobs found.
+2024-07-29 11:28:55.980 [VRB] Checking for aborted jobs...
+2024-07-29 11:28:55.981 [VRB] No newly aborted jobs found.
+2024-07-29 11:29:00.988 [VRB] Checking for aborted jobs...
+2024-07-29 11:29:00.988 [VRB] No newly aborted jobs found.
+2024-07-29 11:29:05.997 [VRB] Checking for aborted jobs...
+2024-07-29 11:29:05.998 [VRB] No newly aborted jobs found.
+2024-07-29 11:29:11.000 [VRB] Checking for aborted jobs...
+2024-07-29 11:29:11.001 [VRB] No newly aborted jobs found.
+2024-07-29 11:29:14.780 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:29:14.780 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:29:16.004 [VRB] Checking for aborted jobs...
+2024-07-29 11:29:16.004 [VRB] No newly aborted jobs found.
+2024-07-29 11:29:21.011 [VRB] Checking for aborted jobs...
+2024-07-29 11:29:21.011 [VRB] No newly aborted jobs found.
+2024-07-29 11:29:26.023 [VRB] Checking for aborted jobs...
+2024-07-29 11:29:26.023 [VRB] No newly aborted jobs found.
+2024-07-29 11:29:31.028 [VRB] Checking for aborted jobs...
+2024-07-29 11:29:31.028 [VRB] No newly aborted jobs found.
+2024-07-29 11:29:36.039 [VRB] Checking for aborted jobs...
+2024-07-29 11:29:36.039 [VRB] No newly aborted jobs found.
+2024-07-29 11:29:41.052 [VRB] Checking for aborted jobs...
+2024-07-29 11:29:41.052 [VRB] No newly aborted jobs found.
+2024-07-29 11:29:44.793 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:29:44.794 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:29:46.055 [VRB] Checking for aborted jobs...
+2024-07-29 11:29:46.056 [VRB] No newly aborted jobs found.
+2024-07-29 11:29:51.060 [VRB] Checking for aborted jobs...
+2024-07-29 11:29:51.061 [VRB] No newly aborted jobs found.
+2024-07-29 11:29:56.064 [VRB] Checking for aborted jobs...
+2024-07-29 11:29:56.065 [VRB] No newly aborted jobs found.
+2024-07-29 11:30:01.072 [VRB] Checking for aborted jobs...
+2024-07-29 11:30:01.072 [VRB] No newly aborted jobs found.
+2024-07-29 11:30:06.080 [VRB] Checking for aborted jobs...
+2024-07-29 11:30:06.080 [VRB] No newly aborted jobs found.
+2024-07-29 11:30:11.086 [VRB] Checking for aborted jobs...
+2024-07-29 11:30:11.087 [VRB] No newly aborted jobs found.
+2024-07-29 11:30:14.802 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:30:14.802 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:30:16.091 [VRB] Checking for aborted jobs...
+2024-07-29 11:30:16.091 [VRB] No newly aborted jobs found.
+2024-07-29 11:30:21.106 [VRB] Checking for aborted jobs...
+2024-07-29 11:30:21.106 [VRB] No newly aborted jobs found.
+2024-07-29 11:30:26.121 [VRB] Checking for aborted jobs...
+2024-07-29 11:30:26.121 [VRB] No newly aborted jobs found.
+2024-07-29 11:30:31.128 [VRB] Checking for aborted jobs...
+2024-07-29 11:30:31.129 [VRB] No newly aborted jobs found.
+2024-07-29 11:30:36.137 [VRB] Checking for aborted jobs...
+2024-07-29 11:30:36.138 [VRB] No newly aborted jobs found.
+2024-07-29 11:30:41.152 [VRB] Checking for aborted jobs...
+2024-07-29 11:30:41.152 [VRB] No newly aborted jobs found.
+2024-07-29 11:30:44.811 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:30:44.811 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:30:46.164 [VRB] Checking for aborted jobs...
+2024-07-29 11:30:46.164 [VRB] No newly aborted jobs found.
+2024-07-29 11:30:51.167 [VRB] Checking for aborted jobs...
+2024-07-29 11:30:51.167 [VRB] No newly aborted jobs found.
+2024-07-29 11:30:56.171 [VRB] Checking for aborted jobs...
+2024-07-29 11:30:56.172 [VRB] No newly aborted jobs found.
+2024-07-29 11:31:01.175 [VRB] Checking for aborted jobs...
+2024-07-29 11:31:01.176 [VRB] No newly aborted jobs found.
+2024-07-29 11:31:06.176 [VRB] Checking for aborted jobs...
+2024-07-29 11:31:06.176 [VRB] No newly aborted jobs found.
+2024-07-29 11:31:11.185 [VRB] Checking for aborted jobs...
+2024-07-29 11:31:11.185 [VRB] No newly aborted jobs found.
+2024-07-29 11:31:14.824 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:31:14.824 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:31:16.188 [VRB] Checking for aborted jobs...
+2024-07-29 11:31:16.188 [VRB] No newly aborted jobs found.
+2024-07-29 11:31:21.196 [VRB] Checking for aborted jobs...
+2024-07-29 11:31:21.196 [VRB] No newly aborted jobs found.
+2024-07-29 11:31:26.207 [VRB] Checking for aborted jobs...
+2024-07-29 11:31:26.207 [VRB] No newly aborted jobs found.
+2024-07-29 11:31:31.222 [VRB] Checking for aborted jobs...
+2024-07-29 11:31:31.222 [VRB] No newly aborted jobs found.
+2024-07-29 11:31:36.234 [VRB] Checking for aborted jobs...
+2024-07-29 11:31:36.234 [VRB] No newly aborted jobs found.
+2024-07-29 11:31:41.244 [VRB] Checking for aborted jobs...
+2024-07-29 11:31:41.245 [VRB] No newly aborted jobs found.
+2024-07-29 11:31:44.838 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:31:44.838 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:31:46.250 [VRB] Checking for aborted jobs...
+2024-07-29 11:31:46.250 [VRB] No newly aborted jobs found.
+2024-07-29 11:31:51.263 [VRB] Checking for aborted jobs...
+2024-07-29 11:31:51.264 [VRB] No newly aborted jobs found.
+2024-07-29 11:31:56.278 [VRB] Checking for aborted jobs...
+2024-07-29 11:31:56.278 [VRB] No newly aborted jobs found.
+2024-07-29 11:32:01.292 [VRB] Checking for aborted jobs...
+2024-07-29 11:32:01.292 [VRB] No newly aborted jobs found.
+2024-07-29 11:32:06.302 [VRB] Checking for aborted jobs...
+2024-07-29 11:32:06.302 [VRB] No newly aborted jobs found.
+2024-07-29 11:32:11.313 [VRB] Checking for aborted jobs...
+2024-07-29 11:32:11.313 [VRB] No newly aborted jobs found.
+2024-07-29 11:32:14.851 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:32:14.851 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:32:16.328 [VRB] Checking for aborted jobs...
+2024-07-29 11:32:16.328 [VRB] No newly aborted jobs found.
+2024-07-29 11:32:21.335 [VRB] Checking for aborted jobs...
+2024-07-29 11:32:21.336 [VRB] No newly aborted jobs found.
+2024-07-29 11:32:26.345 [VRB] Checking for aborted jobs...
+2024-07-29 11:32:26.345 [VRB] No newly aborted jobs found.
+2024-07-29 11:32:31.350 [VRB] Checking for aborted jobs...
+2024-07-29 11:32:31.350 [VRB] No newly aborted jobs found.
+2024-07-29 11:32:36.354 [VRB] Checking for aborted jobs...
+2024-07-29 11:32:36.355 [VRB] No newly aborted jobs found.
+2024-07-29 11:32:41.356 [VRB] Checking for aborted jobs...
+2024-07-29 11:32:41.356 [VRB] No newly aborted jobs found.
+2024-07-29 11:32:44.506 [DBG] Aggregating records in 'Counter' table...
+2024-07-29 11:32:44.530 [VRB] Records from the 'Counter' table aggregated.
+2024-07-29 11:32:44.867 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:32:44.867 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:32:46.361 [VRB] Checking for aborted jobs...
+2024-07-29 11:32:46.361 [VRB] No newly aborted jobs found.
+2024-07-29 11:32:51.369 [VRB] Checking for aborted jobs...
+2024-07-29 11:32:51.369 [VRB] No newly aborted jobs found.
+2024-07-29 11:32:56.376 [VRB] Checking for aborted jobs...
+2024-07-29 11:32:56.376 [VRB] No newly aborted jobs found.
+2024-07-29 11:33:01.389 [VRB] Checking for aborted jobs...
+2024-07-29 11:33:01.390 [VRB] No newly aborted jobs found.
+2024-07-29 11:33:06.392 [VRB] Checking for aborted jobs...
+2024-07-29 11:33:06.393 [VRB] No newly aborted jobs found.
+2024-07-29 11:33:11.401 [VRB] Checking for aborted jobs...
+2024-07-29 11:33:11.402 [VRB] No newly aborted jobs found.
+2024-07-29 11:33:14.878 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:33:14.879 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:33:16.402 [VRB] Checking for aborted jobs...
+2024-07-29 11:33:16.403 [VRB] No newly aborted jobs found.
+2024-07-29 11:33:21.415 [VRB] Checking for aborted jobs...
+2024-07-29 11:33:21.415 [VRB] No newly aborted jobs found.
+2024-07-29 11:33:26.426 [VRB] Checking for aborted jobs...
+2024-07-29 11:33:26.427 [VRB] No newly aborted jobs found.
+2024-07-29 11:33:31.431 [VRB] Checking for aborted jobs...
+2024-07-29 11:33:31.432 [VRB] No newly aborted jobs found.
+2024-07-29 11:33:36.437 [VRB] Checking for aborted jobs...
+2024-07-29 11:33:36.437 [VRB] No newly aborted jobs found.
+2024-07-29 11:33:41.442 [VRB] Checking for aborted jobs...
+2024-07-29 11:33:41.442 [VRB] No newly aborted jobs found.
+2024-07-29 11:33:44.892 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:33:44.892 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:33:46.445 [VRB] Checking for aborted jobs...
+2024-07-29 11:33:46.445 [VRB] No newly aborted jobs found.
+2024-07-29 11:33:51.448 [VRB] Checking for aborted jobs...
+2024-07-29 11:33:51.448 [VRB] No newly aborted jobs found.
+2024-07-29 11:33:56.452 [VRB] Checking for aborted jobs...
+2024-07-29 11:33:56.452 [VRB] No newly aborted jobs found.
+2024-07-29 11:34:01.455 [VRB] Checking for aborted jobs...
+2024-07-29 11:34:01.456 [VRB] No newly aborted jobs found.
+2024-07-29 11:34:06.462 [VRB] Checking for aborted jobs...
+2024-07-29 11:34:06.463 [VRB] No newly aborted jobs found.
+2024-07-29 11:34:11.467 [VRB] Checking for aborted jobs...
+2024-07-29 11:34:11.467 [VRB] No newly aborted jobs found.
+2024-07-29 11:34:14.900 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:34:14.900 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:34:16.480 [VRB] Checking for aborted jobs...
+2024-07-29 11:34:16.480 [VRB] No newly aborted jobs found.
+2024-07-29 11:34:40.781 [VRB] Checking for aborted jobs...
+2024-07-29 11:34:40.781 [VRB] No newly aborted jobs found.
+2024-07-29 11:34:45.789 [VRB] Checking for aborted jobs...
+2024-07-29 11:34:45.789 [VRB] No newly aborted jobs found.
+2024-07-29 11:34:50.801 [VRB] Checking for aborted jobs...
+2024-07-29 11:34:50.801 [VRB] No newly aborted jobs found.
+2024-07-29 11:34:55.806 [VRB] Checking for aborted jobs...
+2024-07-29 11:34:55.807 [VRB] No newly aborted jobs found.
+2024-07-29 11:35:00.808 [VRB] Checking for aborted jobs...
+2024-07-29 11:35:00.808 [VRB] No newly aborted jobs found.
+2024-07-29 11:35:04.199 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:35:04.199 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:35:05.817 [VRB] Checking for aborted jobs...
+2024-07-29 11:35:05.818 [VRB] No newly aborted jobs found.
+2024-07-29 11:35:10.819 [VRB] Checking for aborted jobs...
+2024-07-29 11:35:10.819 [VRB] No newly aborted jobs found.
+2024-07-29 11:35:15.825 [VRB] Checking for aborted jobs...
+2024-07-29 11:35:15.825 [VRB] No newly aborted jobs found.
+2024-07-29 11:35:20.829 [VRB] Checking for aborted jobs...
+2024-07-29 11:35:20.829 [VRB] No newly aborted jobs found.
+2024-07-29 11:35:25.837 [VRB] Checking for aborted jobs...
+2024-07-29 11:35:25.837 [VRB] No newly aborted jobs found.
+2024-07-29 11:35:30.848 [VRB] Checking for aborted jobs...
+2024-07-29 11:35:30.848 [VRB] No newly aborted jobs found.
+2024-07-29 11:35:34.207 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:35:34.207 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:35:35.852 [VRB] Checking for aborted jobs...
+2024-07-29 11:35:35.852 [VRB] No newly aborted jobs found.
+2024-07-29 11:35:40.865 [VRB] Checking for aborted jobs...
+2024-07-29 11:35:40.866 [VRB] No newly aborted jobs found.
+2024-07-29 11:35:45.876 [VRB] Checking for aborted jobs...
+2024-07-29 11:35:45.876 [VRB] No newly aborted jobs found.
+2024-07-29 11:35:50.880 [VRB] Checking for aborted jobs...
+2024-07-29 11:35:50.881 [VRB] No newly aborted jobs found.
+2024-07-29 11:35:55.885 [VRB] Checking for aborted jobs...
+2024-07-29 11:35:55.885 [VRB] No newly aborted jobs found.
+2024-07-29 11:36:00.899 [VRB] Checking for aborted jobs...
+2024-07-29 11:36:00.900 [VRB] No newly aborted jobs found.
+2024-07-29 11:36:04.214 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:36:04.214 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:36:04.834 [INF] LogRequestLoggingMiddleware.Invoke
+2024-07-29 11:36:04.835 [INF] -------------Request-Begin------------
+2024-07-29 11:36:04.835 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Customers 
+QueryString:  
+Request Body: 
+2024-07-29 11:36:04.835 [INF] 
+
+2024-07-29 11:36:04.835 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Customers 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2024-07-29 11:36:04.835 [INF] -------------Request-End------------
+2024-07-29 11:36:05.911 [VRB] Checking for aborted jobs...
+2024-07-29 11:36:05.912 [VRB] No newly aborted jobs found.
+2024-07-29 11:36:10.915 [VRB] Checking for aborted jobs...
+2024-07-29 11:36:10.915 [VRB] No newly aborted jobs found.
+2024-07-29 11:36:15.926 [VRB] Checking for aborted jobs...
+2024-07-29 11:36:15.926 [VRB] No newly aborted jobs found.
+2024-07-29 11:36:20.444 [INF] LogRequestLoggingMiddleware.Invoke
+2024-07-29 11:36:20.445 [INF] -------------Request-Begin------------
+2024-07-29 11:36:20.445 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Users 
+QueryString:  
+Request Body: {
+  "CustomerId": 1,
+  "UserName": "serdar",
+  "Password": "serdar",
+  "Email": "serdarcolak.99@hotmail.com",
+  "Role": "admin",
+  "FirstName": "Serdar",
+  "LastName": "Çolak"
+}
+2024-07-29 11:36:20.445 [INF] 
+
+2024-07-29 11:36:20.445 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Users 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2024-07-29 11:36:20.445 [INF] -------------Request-End------------
+2024-07-29 11:36:20.930 [VRB] Checking for aborted jobs...
+2024-07-29 11:36:20.931 [VRB] No newly aborted jobs found.
+2024-07-29 11:36:25.934 [VRB] Checking for aborted jobs...
+2024-07-29 11:36:25.934 [VRB] No newly aborted jobs found.
+2024-07-29 11:36:30.939 [VRB] Checking for aborted jobs...
+2024-07-29 11:36:30.939 [VRB] No newly aborted jobs found.
+2024-07-29 11:36:34.232 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:36:34.232 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:36:35.942 [VRB] Checking for aborted jobs...
+2024-07-29 11:36:35.942 [VRB] No newly aborted jobs found.
+2024-07-29 11:36:40.953 [VRB] Checking for aborted jobs...
+2024-07-29 11:36:40.953 [VRB] No newly aborted jobs found.
+2024-07-29 11:36:45.965 [VRB] Checking for aborted jobs...
+2024-07-29 11:36:45.965 [VRB] No newly aborted jobs found.
+2024-07-29 11:36:50.972 [VRB] Checking for aborted jobs...
+2024-07-29 11:36:50.972 [VRB] No newly aborted jobs found.
+2024-07-29 11:36:55.977 [VRB] Checking for aborted jobs...
+2024-07-29 11:36:55.977 [VRB] No newly aborted jobs found.
+2024-07-29 11:37:00.990 [VRB] Checking for aborted jobs...
+2024-07-29 11:37:00.990 [VRB] No newly aborted jobs found.
+2024-07-29 11:37:04.237 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:37:04.238 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:37:05.990 [VRB] Checking for aborted jobs...
+2024-07-29 11:37:05.990 [VRB] No newly aborted jobs found.
+2024-07-29 11:37:11.000 [VRB] Checking for aborted jobs...
+2024-07-29 11:37:11.001 [VRB] No newly aborted jobs found.
+2024-07-29 11:37:16.009 [VRB] Checking for aborted jobs...
+2024-07-29 11:37:16.009 [VRB] No newly aborted jobs found.
+2024-07-29 11:37:21.010 [VRB] Checking for aborted jobs...
+2024-07-29 11:37:21.010 [VRB] No newly aborted jobs found.
+2024-07-29 11:37:26.022 [VRB] Checking for aborted jobs...
+2024-07-29 11:37:26.023 [VRB] No newly aborted jobs found.
+2024-07-29 11:37:31.033 [VRB] Checking for aborted jobs...
+2024-07-29 11:37:31.033 [VRB] No newly aborted jobs found.
+2024-07-29 11:37:34.245 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:37:34.245 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:37:36.046 [VRB] Checking for aborted jobs...
+2024-07-29 11:37:36.046 [VRB] No newly aborted jobs found.
+2024-07-29 11:37:41.056 [VRB] Checking for aborted jobs...
+2024-07-29 11:37:41.056 [VRB] No newly aborted jobs found.
+2024-07-29 11:37:46.061 [VRB] Checking for aborted jobs...
+2024-07-29 11:37:46.061 [VRB] No newly aborted jobs found.
+2024-07-29 11:37:51.064 [VRB] Checking for aborted jobs...
+2024-07-29 11:37:51.064 [VRB] No newly aborted jobs found.
+2024-07-29 11:37:56.065 [VRB] Checking for aborted jobs...
+2024-07-29 11:37:56.065 [VRB] No newly aborted jobs found.
+2024-07-29 11:38:01.068 [VRB] Checking for aborted jobs...
+2024-07-29 11:38:01.068 [VRB] No newly aborted jobs found.
+2024-07-29 11:38:03.825 [DBG] Aggregating records in 'Counter' table...
+2024-07-29 11:38:03.835 [VRB] Records from the 'Counter' table aggregated.
+2024-07-29 11:38:04.257 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:38:04.257 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:38:06.069 [VRB] Checking for aborted jobs...
+2024-07-29 11:38:06.070 [VRB] No newly aborted jobs found.
+2024-07-29 11:38:11.076 [VRB] Checking for aborted jobs...
+2024-07-29 11:38:11.076 [VRB] No newly aborted jobs found.
+2024-07-29 11:38:16.091 [VRB] Checking for aborted jobs...
+2024-07-29 11:38:16.091 [VRB] No newly aborted jobs found.
+2024-07-29 11:38:21.099 [VRB] Checking for aborted jobs...
+2024-07-29 11:38:21.100 [VRB] No newly aborted jobs found.
+2024-07-29 11:38:26.107 [VRB] Checking for aborted jobs...
+2024-07-29 11:38:26.107 [VRB] No newly aborted jobs found.
+2024-07-29 11:38:31.117 [VRB] Checking for aborted jobs...
+2024-07-29 11:38:31.117 [VRB] No newly aborted jobs found.
+2024-07-29 11:38:34.268 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:38:34.269 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:38:36.132 [VRB] Checking for aborted jobs...
+2024-07-29 11:38:36.132 [VRB] No newly aborted jobs found.
+2024-07-29 11:38:41.140 [VRB] Checking for aborted jobs...
+2024-07-29 11:38:41.140 [VRB] No newly aborted jobs found.
+2024-07-29 11:38:46.151 [VRB] Checking for aborted jobs...
+2024-07-29 11:38:46.152 [VRB] No newly aborted jobs found.
+2024-07-29 11:38:51.166 [VRB] Checking for aborted jobs...
+2024-07-29 11:38:51.166 [VRB] No newly aborted jobs found.
+2024-07-29 11:38:56.176 [VRB] Checking for aborted jobs...
+2024-07-29 11:38:56.176 [VRB] No newly aborted jobs found.
+2024-07-29 11:39:01.189 [VRB] Checking for aborted jobs...
+2024-07-29 11:39:01.189 [VRB] No newly aborted jobs found.
+2024-07-29 11:39:04.280 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:39:04.280 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:39:06.202 [VRB] Checking for aborted jobs...
+2024-07-29 11:39:06.202 [VRB] No newly aborted jobs found.
+2024-07-29 11:39:11.208 [VRB] Checking for aborted jobs...
+2024-07-29 11:39:11.208 [VRB] No newly aborted jobs found.
+2024-07-29 11:39:16.220 [VRB] Checking for aborted jobs...
+2024-07-29 11:39:16.220 [VRB] No newly aborted jobs found.
+2024-07-29 11:39:21.227 [VRB] Checking for aborted jobs...
+2024-07-29 11:39:21.227 [VRB] No newly aborted jobs found.
+2024-07-29 11:39:26.231 [VRB] Checking for aborted jobs...
+2024-07-29 11:39:26.231 [VRB] No newly aborted jobs found.
+2024-07-29 11:39:31.233 [VRB] Checking for aborted jobs...
+2024-07-29 11:39:31.234 [VRB] No newly aborted jobs found.
+2024-07-29 11:39:34.299 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:39:34.299 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:39:36.236 [VRB] Checking for aborted jobs...
+2024-07-29 11:39:36.236 [VRB] No newly aborted jobs found.
+2024-07-29 11:39:41.250 [VRB] Checking for aborted jobs...
+2024-07-29 11:39:41.251 [VRB] No newly aborted jobs found.
+2024-07-29 11:39:46.258 [VRB] Checking for aborted jobs...
+2024-07-29 11:39:46.258 [VRB] No newly aborted jobs found.
+2024-07-29 11:39:51.269 [VRB] Checking for aborted jobs...
+2024-07-29 11:39:51.269 [VRB] No newly aborted jobs found.
+2024-07-29 11:39:56.275 [VRB] Checking for aborted jobs...
+2024-07-29 11:39:56.276 [VRB] No newly aborted jobs found.
+2024-07-29 11:40:01.286 [VRB] Checking for aborted jobs...
+2024-07-29 11:40:01.286 [VRB] No newly aborted jobs found.
+2024-07-29 11:40:04.311 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:40:04.312 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:40:06.288 [VRB] Checking for aborted jobs...
+2024-07-29 11:40:06.288 [VRB] No newly aborted jobs found.
+2024-07-29 11:40:11.289 [VRB] Checking for aborted jobs...
+2024-07-29 11:40:11.289 [VRB] No newly aborted jobs found.
+2024-07-29 11:40:16.293 [VRB] Checking for aborted jobs...
+2024-07-29 11:40:16.293 [VRB] No newly aborted jobs found.
+2024-07-29 11:40:21.297 [VRB] Checking for aborted jobs...
+2024-07-29 11:40:21.298 [VRB] No newly aborted jobs found.
+2024-07-29 11:40:26.310 [VRB] Checking for aborted jobs...
+2024-07-29 11:40:26.310 [VRB] No newly aborted jobs found.
+2024-07-29 11:40:31.317 [VRB] Checking for aborted jobs...
+2024-07-29 11:40:31.317 [VRB] No newly aborted jobs found.
+2024-07-29 11:40:34.323 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:40:34.323 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:40:36.325 [VRB] Checking for aborted jobs...
+2024-07-29 11:40:36.325 [VRB] No newly aborted jobs found.
+2024-07-29 11:40:41.326 [VRB] Checking for aborted jobs...
+2024-07-29 11:40:41.327 [VRB] No newly aborted jobs found.
+2024-07-29 11:40:46.332 [VRB] Checking for aborted jobs...
+2024-07-29 11:40:46.333 [VRB] No newly aborted jobs found.
+2024-07-29 11:40:51.340 [VRB] Checking for aborted jobs...
+2024-07-29 11:40:51.341 [VRB] No newly aborted jobs found.
+2024-07-29 11:40:56.355 [VRB] Checking for aborted jobs...
+2024-07-29 11:40:56.355 [VRB] No newly aborted jobs found.
+2024-07-29 11:41:01.357 [VRB] Checking for aborted jobs...
+2024-07-29 11:41:01.357 [VRB] No newly aborted jobs found.
+2024-07-29 11:41:04.330 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:41:04.331 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:41:06.370 [VRB] Checking for aborted jobs...
+2024-07-29 11:41:06.370 [VRB] No newly aborted jobs found.
+2024-07-29 11:41:11.379 [VRB] Checking for aborted jobs...
+2024-07-29 11:41:11.380 [VRB] No newly aborted jobs found.
+2024-07-29 11:41:16.380 [VRB] Checking for aborted jobs...
+2024-07-29 11:41:16.381 [VRB] No newly aborted jobs found.
+2024-07-29 11:41:21.389 [VRB] Checking for aborted jobs...
+2024-07-29 11:41:21.389 [VRB] No newly aborted jobs found.
+2024-07-29 11:41:26.402 [VRB] Checking for aborted jobs...
+2024-07-29 11:41:26.402 [VRB] No newly aborted jobs found.
+2024-07-29 11:41:31.412 [VRB] Checking for aborted jobs...
+2024-07-29 11:41:31.412 [VRB] No newly aborted jobs found.
+2024-07-29 11:41:34.335 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:41:34.336 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:41:36.418 [VRB] Checking for aborted jobs...
+2024-07-29 11:41:36.418 [VRB] No newly aborted jobs found.
+2024-07-29 11:41:41.430 [VRB] Checking for aborted jobs...
+2024-07-29 11:41:41.430 [VRB] No newly aborted jobs found.
+2024-07-29 11:41:46.433 [VRB] Checking for aborted jobs...
+2024-07-29 11:41:46.433 [VRB] No newly aborted jobs found.
+2024-07-29 11:41:51.447 [VRB] Checking for aborted jobs...
+2024-07-29 11:41:51.448 [VRB] No newly aborted jobs found.
+2024-07-29 11:41:56.453 [VRB] Checking for aborted jobs...
+2024-07-29 11:41:56.453 [VRB] No newly aborted jobs found.
+2024-07-29 11:42:01.462 [VRB] Checking for aborted jobs...
+2024-07-29 11:42:01.463 [VRB] No newly aborted jobs found.
+2024-07-29 11:42:04.341 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:42:04.341 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:42:06.468 [VRB] Checking for aborted jobs...
+2024-07-29 11:42:06.468 [VRB] No newly aborted jobs found.
+2024-07-29 11:42:11.472 [VRB] Checking for aborted jobs...
+2024-07-29 11:42:11.472 [VRB] No newly aborted jobs found.
+2024-07-29 11:42:16.479 [VRB] Checking for aborted jobs...
+2024-07-29 11:42:16.479 [VRB] No newly aborted jobs found.
+2024-07-29 11:42:21.486 [VRB] Checking for aborted jobs...
+2024-07-29 11:42:21.486 [VRB] No newly aborted jobs found.
+2024-07-29 11:42:26.500 [VRB] Checking for aborted jobs...
+2024-07-29 11:42:26.500 [VRB] No newly aborted jobs found.
+2024-07-29 11:42:31.504 [VRB] Checking for aborted jobs...
+2024-07-29 11:42:31.505 [VRB] No newly aborted jobs found.
+2024-07-29 11:42:34.349 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:42:34.350 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:42:36.508 [VRB] Checking for aborted jobs...
+2024-07-29 11:42:36.509 [VRB] No newly aborted jobs found.
+2024-07-29 11:42:41.519 [VRB] Checking for aborted jobs...
+2024-07-29 11:42:41.520 [VRB] No newly aborted jobs found.
+2024-07-29 11:42:46.522 [VRB] Checking for aborted jobs...
+2024-07-29 11:42:46.523 [VRB] No newly aborted jobs found.
+2024-07-29 11:42:51.530 [VRB] Checking for aborted jobs...
+2024-07-29 11:42:51.530 [VRB] No newly aborted jobs found.
+2024-07-29 11:42:56.534 [VRB] Checking for aborted jobs...
+2024-07-29 11:42:56.534 [VRB] No newly aborted jobs found.
+2024-07-29 11:43:01.536 [VRB] Checking for aborted jobs...
+2024-07-29 11:43:01.537 [VRB] No newly aborted jobs found.
+2024-07-29 11:43:03.840 [DBG] Aggregating records in 'Counter' table...
+2024-07-29 11:43:03.865 [VRB] Records from the 'Counter' table aggregated.
+2024-07-29 11:43:04.011 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-07-29 11:43:04.023 [VRB] Outdated records removed from the 'AggregatedCounter' table.
+2024-07-29 11:43:04.024 [DBG] Removing outdated records from the 'Job' table...
+2024-07-29 11:43:04.035 [VRB] Outdated records removed from the 'Job' table.
+2024-07-29 11:43:04.035 [DBG] Removing outdated records from the 'List' table...
+2024-07-29 11:43:04.045 [VRB] Outdated records removed from the 'List' table.
+2024-07-29 11:43:04.045 [DBG] Removing outdated records from the 'Set' table...
+2024-07-29 11:43:04.051 [VRB] Outdated records removed from the 'Set' table.
+2024-07-29 11:43:04.052 [DBG] Removing outdated records from the 'Hash' table...
+2024-07-29 11:43:04.054 [VRB] Outdated records removed from the 'Hash' table.
+2024-07-29 11:43:04.359 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:43:04.359 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:43:06.548 [VRB] Checking for aborted jobs...
+2024-07-29 11:43:06.548 [VRB] No newly aborted jobs found.
+2024-07-29 11:43:11.564 [VRB] Checking for aborted jobs...
+2024-07-29 11:43:11.564 [VRB] No newly aborted jobs found.
+2024-07-29 11:43:16.579 [VRB] Checking for aborted jobs...
+2024-07-29 11:43:16.579 [VRB] No newly aborted jobs found.
+2024-07-29 11:43:21.587 [VRB] Checking for aborted jobs...
+2024-07-29 11:43:21.588 [VRB] No newly aborted jobs found.
+2024-07-29 11:43:24.281 [INF] LogRequestLoggingMiddleware.Invoke
+2024-07-29 11:43:26.281 [INF] -------------Request-Begin------------
+2024-07-29 11:43:26.281 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Authorization 
+QueryString:  
+Request Body: {
+  "UserName": "serdar",
+  "Password": "serdar"
+}
+2024-07-29 11:43:26.281 [INF] 
+
+2024-07-29 11:43:26.281 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Authorization 
+QueryString:  
+StatusCode: 200 
+Response Body: {
+  "Data": null,
+  "Message": "Invalid user informations. Check your username or password. E1",
+  "IsSuccess": true,
+  "ServerDate": "2024-07-29T08:43:26.2476619Z",
+  "ReferenceNumber": "ed952c29-a7b4-482d-aa3b-a99cd1d1f14c"
+}
+2024-07-29 11:43:26.281 [INF] -------------Request-End------------
+2024-07-29 11:43:26.598 [VRB] Checking for aborted jobs...
+2024-07-29 11:43:26.599 [VRB] No newly aborted jobs found.
+2024-07-29 11:43:31.614 [VRB] Checking for aborted jobs...
+2024-07-29 11:43:31.614 [VRB] No newly aborted jobs found.
+2024-07-29 11:43:34.369 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:43:34.369 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:43:36.622 [VRB] Checking for aborted jobs...
+2024-07-29 11:43:36.623 [VRB] No newly aborted jobs found.
+2024-07-29 11:43:41.626 [VRB] Checking for aborted jobs...
+2024-07-29 11:43:41.627 [VRB] No newly aborted jobs found.
+2024-07-29 11:43:46.631 [VRB] Checking for aborted jobs...
+2024-07-29 11:43:46.631 [VRB] No newly aborted jobs found.
+2024-07-29 11:43:51.642 [VRB] Checking for aborted jobs...
+2024-07-29 11:43:51.642 [VRB] No newly aborted jobs found.
+2024-07-29 11:43:56.645 [VRB] Checking for aborted jobs...
+2024-07-29 11:43:56.645 [VRB] No newly aborted jobs found.
+2024-07-29 11:44:01.649 [VRB] Checking for aborted jobs...
+2024-07-29 11:44:01.649 [VRB] No newly aborted jobs found.
+2024-07-29 11:44:04.381 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:44:04.381 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:44:06.651 [VRB] Checking for aborted jobs...
+2024-07-29 11:44:06.652 [VRB] No newly aborted jobs found.
+2024-07-29 11:44:11.663 [VRB] Checking for aborted jobs...
+2024-07-29 11:44:11.664 [VRB] No newly aborted jobs found.
+2024-07-29 11:44:16.670 [VRB] Checking for aborted jobs...
+2024-07-29 11:44:16.671 [VRB] No newly aborted jobs found.
+2024-07-29 11:44:21.685 [VRB] Checking for aborted jobs...
+2024-07-29 11:44:21.686 [VRB] No newly aborted jobs found.
+2024-07-29 11:44:26.694 [VRB] Checking for aborted jobs...
+2024-07-29 11:44:26.694 [VRB] No newly aborted jobs found.
+2024-07-29 11:44:31.697 [VRB] Checking for aborted jobs...
+2024-07-29 11:44:31.697 [VRB] No newly aborted jobs found.
+2024-07-29 11:44:34.399 [DBG] Server egepc103:22692:3cbcfcec heartbeat successfully sent
+2024-07-29 11:44:34.399 [VRB] Server egepc103:22692:3cbcfcec waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:44:36.702 [VRB] Checking for aborted jobs...
+2024-07-29 11:44:36.703 [VRB] No newly aborted jobs found.
+2024-07-29 11:44:41.706 [VRB] Checking for aborted jobs...
+2024-07-29 11:44:41.706 [VRB] No newly aborted jobs found.
+2024-07-29 11:44:46.709 [VRB] Checking for aborted jobs...
+2024-07-29 11:44:46.710 [VRB] No newly aborted jobs found.
+2024-07-29 11:44:49.364 [INF] LogRequestLoggingMiddleware.Invoke
+2024-07-29 11:44:49.365 [INF] -------------Request-Begin------------
+2024-07-29 11:44:49.365 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Users 
+QueryString:  
+Request Body: {
+  "CustomerId": 1,
+  "UserName": "serdar",
+  "Password": "serdar",
+  "Email": "serdarcolak.99@hotmail.com",
+  "Role": "admin",
+  "FirstName": "Serdar",
+  "LastName": "Çolak"
+}
+2024-07-29 11:44:49.365 [INF] 
+
+2024-07-29 11:44:49.365 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Users 
+QueryString:  
+StatusCode: 401 
+Response Body: 
+2024-07-29 11:44:49.365 [INF] -------------Request-End------------
+2024-07-29 11:44:51.719 [VRB] Checking for aborted jobs...
+2024-07-29 11:44:51.719 [VRB] No newly aborted jobs found.
+2024-07-29 11:44:56.727 [VRB] Checking for aborted jobs...
+2024-07-29 11:44:56.727 [VRB] No newly aborted jobs found.
+2024-07-29 11:45:16.486 [INF] Application is starting...
+2024-07-29 11:45:20.213 [INF] Start installing Hangfire SQL objects...
+2024-07-29 11:45:21.477 [INF] Hangfire SQL objects installed.
+2024-07-29 11:45:22.302 [INF] Starting Hangfire Server using job storage: 'SQL Server: EGEPC103@padb'
+2024-07-29 11:45:22.303 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-07-29 11:45:22.303 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-07-29 11:45:22.320 [DBG] Execution loop BackgroundServerProcess:aee8b88f has started in 7,8407 ms
+2024-07-29 11:45:22.369 [VRB] Server egepc103:6824:2d4b4a4d is announcing itself...
+2024-07-29 11:45:22.697 [INF] Server egepc103:6824:2d4b4a4d successfully announced in 327,812 ms
+2024-07-29 11:45:22.706 [DBG] Execution loop ServerHeartbeatProcess:bc11e64a has started in 6,2403 ms
+2024-07-29 11:45:22.706 [INF] Server egepc103:6824:2d4b4a4d is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-07-29 11:45:22.711 [VRB] Server egepc103:6824:2d4b4a4d waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:45:22.719 [DBG] Execution loop ServerWatchdog:1a191755 has started in 11,9317 ms
+2024-07-29 11:45:22.735 [DBG] Execution loop ServerJobCancellationWatcher:3f15ec2c has started in 16,1572 ms
+2024-07-29 11:45:22.738 [VRB] Checking for aborted jobs...
+2024-07-29 11:45:22.738 [DBG] Execution loop ExpirationManager:cfd4b82d has started in 5,7018 ms
+2024-07-29 11:45:22.742 [DBG] Execution loop CountersAggregator:b2beab78 has started in 5,9244 ms
+2024-07-29 11:45:22.743 [VRB] No newly aborted jobs found.
+2024-07-29 11:45:22.743 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-07-29 11:45:22.744 [DBG] Aggregating records in 'Counter' table...
+2024-07-29 11:45:22.747 [DBG] Execution loop SqlServerHeartbeatProcess:4a3dfe34 has started in 7,7552 ms
+2024-07-29 11:45:22.753 [DBG] Execution loop Worker:3f5d5629 has started in 9,4414 ms
+2024-07-29 11:45:22.758 [DBG] Execution loop Worker:decb4a33 has started in 14,1595 ms
+2024-07-29 11:45:22.762 [DBG] Execution loop Worker:40a50588 has started in 17,9229 ms
+2024-07-29 11:45:22.768 [DBG] Execution loop Worker:d7b3c83c has started in 24,4501 ms
+2024-07-29 11:45:22.772 [DBG] Execution loop Worker:b59ccab9 has started in 27,8542 ms
+2024-07-29 11:45:22.778 [DBG] Execution loop Worker:ce7994b5 has started in 33,9763 ms
+2024-07-29 11:45:22.780 [DBG] Execution loop Worker:4dd3f7d6 has started in 36,2119 ms
+2024-07-29 11:45:22.785 [VRB] Records from the 'Counter' table aggregated.
+2024-07-29 11:45:22.787 [DBG] Execution loop Worker:bcede474 has started in 43,7828 ms
+2024-07-29 11:45:22.792 [DBG] Execution loop Worker:9e91d2d0 has started in 48,0382 ms
+2024-07-29 11:45:22.794 [DBG] Execution loop Worker:968f148c has started in 50,3026 ms
+2024-07-29 11:45:22.800 [DBG] Execution loop Worker:31e48885 has started in 56,6035 ms
+2024-07-29 11:45:22.806 [DBG] Execution loop Worker:a15721d7 has started in 62,4337 ms
+2024-07-29 11:45:22.809 [DBG] Execution loop Worker:897bcb8e has started in 59,0686 ms
+2024-07-29 11:45:22.811 [DBG] Execution loop Worker:30f228d2 has started in 67,3643 ms
+2024-07-29 11:45:22.818 [DBG] Execution loop Worker:fe4461d0 has started in 71,3745 ms
+2024-07-29 11:45:22.821 [DBG] Execution loop Worker:b3fdd111 has started in 76,9531 ms
+2024-07-29 11:45:22.828 [DBG] Execution loop Worker:ae20ed92 has started in 82,0212 ms
+2024-07-29 11:45:22.830 [DBG] Execution loop Worker:f9df5373 has started in 86,0744 ms
+2024-07-29 11:45:22.835 [DBG] Execution loop Worker:6063f4cd has started in 91,2395 ms
+2024-07-29 11:45:22.839 [DBG] Execution loop Worker:9eb1d4f6 has started in 95,7336 ms
+2024-07-29 11:45:22.846 [DBG] Execution loop DelayedJobScheduler:9d2a6650 has started in 9,3336 ms
+2024-07-29 11:45:22.846 [INF] Server egepc103:6824:2d4b4a4d all the dispatchers started
+2024-07-29 11:45:22.853 [DBG] Execution loop RecurringJobScheduler:3de730f9 has started in 12,3528 ms
+2024-07-29 11:45:22.855 [VRB] Outdated records removed from the 'AggregatedCounter' table.
+2024-07-29 11:45:22.855 [DBG] Removing outdated records from the 'Job' table...
+2024-07-29 11:45:22.890 [VRB] Outdated records removed from the 'Job' table.
+2024-07-29 11:45:22.890 [DBG] Removing outdated records from the 'List' table...
+2024-07-29 11:45:22.894 [VRB] Outdated records removed from the 'List' table.
+2024-07-29 11:45:22.894 [DBG] Removing outdated records from the 'Set' table...
+2024-07-29 11:45:22.905 [VRB] Outdated records removed from the 'Set' table.
+2024-07-29 11:45:22.905 [DBG] Removing outdated records from the 'Hash' table...
+2024-07-29 11:45:22.922 [VRB] Outdated records removed from the 'Hash' table.
+2024-07-29 11:45:27.754 [VRB] Checking for aborted jobs...
+2024-07-29 11:45:27.754 [VRB] No newly aborted jobs found.
+2024-07-29 11:45:32.768 [VRB] Checking for aborted jobs...
+2024-07-29 11:45:32.768 [VRB] No newly aborted jobs found.
+2024-07-29 11:45:37.774 [VRB] Checking for aborted jobs...
+2024-07-29 11:45:37.774 [VRB] No newly aborted jobs found.
+2024-07-29 11:45:39.940 [INF] LogRequestLoggingMiddleware.Invoke
+2024-07-29 11:45:42.136 [INF] -------------Request-Begin------------
+2024-07-29 11:45:42.136 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Authorization 
+QueryString:  
+Request Body: {
+  "UserName": "serdar",
+  "Password": "serdar"
+}
+2024-07-29 11:45:42.136 [INF] 
+
+2024-07-29 11:45:42.136 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Authorization 
+QueryString:  
+StatusCode: 200 
+Response Body: {
+  "Data": null,
+  "Message": "Invalid user informations. Check your username or password. E1",
+  "IsSuccess": true,
+  "ServerDate": "2024-07-29T08:45:42.1125147Z",
+  "ReferenceNumber": "94369330-a617-4bf1-b35b-87283408d3ab"
+}
+2024-07-29 11:45:42.136 [INF] -------------Request-End------------
+2024-07-29 11:45:42.783 [VRB] Checking for aborted jobs...
+2024-07-29 11:45:42.784 [VRB] No newly aborted jobs found.
+2024-07-29 11:45:47.797 [VRB] Checking for aborted jobs...
+2024-07-29 11:45:47.798 [VRB] No newly aborted jobs found.
+2024-07-29 11:45:52.722 [DBG] Server egepc103:6824:2d4b4a4d heartbeat successfully sent
+2024-07-29 11:45:52.724 [VRB] Server egepc103:6824:2d4b4a4d waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:45:52.809 [VRB] Checking for aborted jobs...
+2024-07-29 11:45:52.809 [VRB] No newly aborted jobs found.
+2024-07-29 11:45:57.815 [VRB] Checking for aborted jobs...
+2024-07-29 11:45:57.816 [VRB] No newly aborted jobs found.
+2024-07-29 11:46:02.821 [VRB] Checking for aborted jobs...
+2024-07-29 11:46:02.821 [VRB] No newly aborted jobs found.
+2024-07-29 11:46:07.834 [VRB] Checking for aborted jobs...
+2024-07-29 11:46:07.835 [VRB] No newly aborted jobs found.
+2024-07-29 11:46:12.839 [VRB] Checking for aborted jobs...
+2024-07-29 11:46:12.840 [VRB] No newly aborted jobs found.
+2024-07-29 11:46:17.853 [VRB] Checking for aborted jobs...
+2024-07-29 11:46:17.854 [VRB] No newly aborted jobs found.
+2024-07-29 11:46:22.729 [DBG] Server egepc103:6824:2d4b4a4d heartbeat successfully sent
+2024-07-29 11:46:22.730 [VRB] Server egepc103:6824:2d4b4a4d waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:46:22.865 [VRB] Checking for aborted jobs...
+2024-07-29 11:46:22.866 [VRB] No newly aborted jobs found.
+2024-07-29 11:46:27.881 [VRB] Checking for aborted jobs...
+2024-07-29 11:46:27.881 [VRB] No newly aborted jobs found.
+2024-07-29 11:46:32.896 [VRB] Checking for aborted jobs...
+2024-07-29 11:46:32.896 [VRB] No newly aborted jobs found.
+2024-07-29 11:46:37.904 [VRB] Checking for aborted jobs...
+2024-07-29 11:46:37.905 [VRB] No newly aborted jobs found.
+2024-07-29 11:46:42.918 [VRB] Checking for aborted jobs...
+2024-07-29 11:46:42.918 [VRB] No newly aborted jobs found.
+2024-07-29 11:46:47.928 [VRB] Checking for aborted jobs...
+2024-07-29 11:46:47.928 [VRB] No newly aborted jobs found.
+2024-07-29 11:46:52.743 [DBG] Server egepc103:6824:2d4b4a4d heartbeat successfully sent
+2024-07-29 11:46:52.743 [VRB] Server egepc103:6824:2d4b4a4d waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:46:52.942 [VRB] Checking for aborted jobs...
+2024-07-29 11:46:52.942 [VRB] No newly aborted jobs found.
+2024-07-29 11:46:57.951 [VRB] Checking for aborted jobs...
+2024-07-29 11:46:57.952 [VRB] No newly aborted jobs found.
+2024-07-29 11:48:36.741 [INF] Application is starting...
+2024-07-29 11:48:38.995 [INF] Start installing Hangfire SQL objects...
+2024-07-29 11:48:39.915 [INF] Hangfire SQL objects installed.
+2024-07-29 11:48:40.502 [INF] Starting Hangfire Server using job storage: 'SQL Server: EGEPC103@padb'
+2024-07-29 11:48:40.502 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-07-29 11:48:40.502 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-07-29 11:48:40.560 [DBG] Execution loop BackgroundServerProcess:9ad26401 has started in 22,0627 ms
+2024-07-29 11:48:40.580 [VRB] Server egepc103:22472:8e7f712d is announcing itself...
+2024-07-29 11:48:40.799 [INF] Server egepc103:22472:8e7f712d successfully announced in 218,3046 ms
+2024-07-29 11:48:40.811 [DBG] Execution loop ServerHeartbeatProcess:c2cca4cc has started in 10,1734 ms
+2024-07-29 11:48:40.811 [INF] Server egepc103:22472:8e7f712d is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-07-29 11:48:40.817 [DBG] Execution loop ServerWatchdog:06688ef1 has started in 5,1406 ms
+2024-07-29 11:48:40.822 [DBG] Execution loop ServerJobCancellationWatcher:7e444f34 has started in 8,2556 ms
+2024-07-29 11:48:40.824 [VRB] Checking for aborted jobs...
+2024-07-29 11:48:40.824 [VRB] Server egepc103:22472:8e7f712d waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:48:40.825 [VRB] No newly aborted jobs found.
+2024-07-29 11:48:40.830 [DBG] Execution loop ExpirationManager:844f6ef9 has started in 7,8407 ms
+2024-07-29 11:48:40.837 [DBG] Execution loop CountersAggregator:1b442fb4 has started in 8,7299 ms
+2024-07-29 11:48:40.837 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-07-29 11:48:40.840 [DBG] Aggregating records in 'Counter' table...
+2024-07-29 11:48:40.840 [DBG] Execution loop SqlServerHeartbeatProcess:dfae90a7 has started in 7,179 ms
+2024-07-29 11:48:40.847 [DBG] Execution loop Worker:f6337d18 has started in 7,777 ms
+2024-07-29 11:48:40.849 [DBG] Execution loop Worker:4825bb83 has started in 10,2717 ms
+2024-07-29 11:48:40.853 [DBG] Execution loop Worker:81057c12 has started in 14,2291 ms
+2024-07-29 11:48:40.857 [DBG] Execution loop Worker:f803f165 has started in 18,6273 ms
+2024-07-29 11:48:40.861 [DBG] Execution loop Worker:109d0b8a has started in 22,9143 ms
+2024-07-29 11:48:40.868 [DBG] Execution loop Worker:443b0f3b has started in 29,4457 ms
+2024-07-29 11:48:40.868 [VRB] Records from the 'Counter' table aggregated.
+2024-07-29 11:48:40.870 [DBG] Execution loop Worker:f92ad3ac has started in 31,4154 ms
+2024-07-29 11:48:40.877 [DBG] Execution loop Worker:4b93441f has started in 38,28 ms
+2024-07-29 11:48:40.879 [DBG] Execution loop Worker:7be5471f has started in 40,0773 ms
+2024-07-29 11:48:40.882 [DBG] Execution loop Worker:8c5dc2f3 has started in 43,6831 ms
+2024-07-29 11:48:40.887 [DBG] Execution loop Worker:bf2bd2d9 has started in 48,8594 ms
+2024-07-29 11:48:40.892 [DBG] Execution loop Worker:fc57ab6e has started in 53,3123 ms
+2024-07-29 11:48:40.896 [DBG] Execution loop Worker:8a238a7b has started in 57,1463 ms
+2024-07-29 11:48:40.900 [DBG] Execution loop Worker:12892173 has started in 61,1067 ms
+2024-07-29 11:48:40.907 [DBG] Execution loop Worker:240d40f4 has started in 68,7531 ms
+2024-07-29 11:48:40.912 [DBG] Execution loop Worker:f73766b4 has started in 72,829 ms
+2024-07-29 11:48:40.916 [DBG] Execution loop Worker:2d140f6e has started in 77,3928 ms
+2024-07-29 11:48:40.923 [DBG] Execution loop Worker:a08ee251 has started in 84,0878 ms
+2024-07-29 11:48:40.927 [DBG] Execution loop Worker:c3bbfb8a has started in 88,3919 ms
+2024-07-29 11:48:40.930 [DBG] Execution loop Worker:6f5d2dc4 has started in 91,8203 ms
+2024-07-29 11:48:40.941 [DBG] Execution loop DelayedJobScheduler:d66860a7 has started in 13,7245 ms
+2024-07-29 11:48:40.946 [INF] Server egepc103:22472:8e7f712d all the dispatchers started
+2024-07-29 11:48:40.947 [DBG] Execution loop RecurringJobScheduler:ea4bf8ac has started in 14,4207 ms
+2024-07-29 11:48:40.966 [VRB] Outdated records removed from the 'AggregatedCounter' table.
+2024-07-29 11:48:40.966 [DBG] Removing outdated records from the 'Job' table...
+2024-07-29 11:48:40.999 [VRB] Outdated records removed from the 'Job' table.
+2024-07-29 11:48:40.999 [DBG] Removing outdated records from the 'List' table...
+2024-07-29 11:48:41.003 [VRB] Outdated records removed from the 'List' table.
+2024-07-29 11:48:41.003 [DBG] Removing outdated records from the 'Set' table...
+2024-07-29 11:48:41.020 [VRB] Outdated records removed from the 'Set' table.
+2024-07-29 11:48:41.020 [DBG] Removing outdated records from the 'Hash' table...
+2024-07-29 11:48:41.025 [VRB] Outdated records removed from the 'Hash' table.
+2024-07-29 11:48:45.828 [VRB] Checking for aborted jobs...
+2024-07-29 11:48:45.829 [VRB] No newly aborted jobs found.
+2024-07-29 11:48:50.844 [VRB] Checking for aborted jobs...
+2024-07-29 11:48:50.844 [VRB] No newly aborted jobs found.
+2024-07-29 11:48:55.858 [VRB] Checking for aborted jobs...
+2024-07-29 11:48:55.858 [VRB] No newly aborted jobs found.
+2024-07-29 11:48:56.946 [INF] LogRequestLoggingMiddleware.Invoke
+2024-07-29 11:48:59.044 [INF] -------------Request-Begin------------
+2024-07-29 11:48:59.044 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Authorization 
+QueryString:  
+Request Body: {
+  "UserName": "serdar",
+  "Password": "serdar"
+}
+2024-07-29 11:48:59.044 [INF] 
+
+2024-07-29 11:48:59.044 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Authorization 
+QueryString:  
+StatusCode: 200 
+Response Body: {
+  "Data": {
+    "ExpireTime": "2024-07-29T11:53:59.0055038+03:00",
+    "AccessToken": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6InNlcmRhciIsIlVzZXJJZCI6IjExIiwiUm9sZSI6IkN1c3RvbWVyIiwiU3RhdHVzIjoiMSIsIkVtYWlsIjoic2VyZGFyY29sYWsuOTlAaG90bWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJDdXN0b21lciIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJTZXJkYXIgw4dvbGFrIiwiZXhwIjoxNzIyMjQ2MjM4LCJpc3MiOiJQYXJhQXBpIiwiYXVkIjoiUGFyYUFwaSJ9.Y-ofiQ-ndz3o_M6exzyNu75w3svU1L-ym1yDxNK3V0U",
+    "UserName": "serdar",
+    "Id": 0
+  },
+  "Message": "Success",
+  "IsSuccess": true,
+  "ServerDate": "2024-07-29T08:48:59.0057834Z",
+  "ReferenceNumber": "77c57976-0d8b-4888-9683-c3a6db70fe47"
+}
+2024-07-29 11:48:59.045 [INF] -------------Request-End------------
+2024-07-29 11:49:00.860 [VRB] Checking for aborted jobs...
+2024-07-29 11:49:00.860 [VRB] No newly aborted jobs found.
+2024-07-29 11:49:05.866 [VRB] Checking for aborted jobs...
+2024-07-29 11:49:05.866 [VRB] No newly aborted jobs found.
+2024-07-29 11:49:10.834 [DBG] Server egepc103:22472:8e7f712d heartbeat successfully sent
+2024-07-29 11:49:10.835 [VRB] Server egepc103:22472:8e7f712d waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:49:10.872 [VRB] Checking for aborted jobs...
+2024-07-29 11:49:10.872 [VRB] No newly aborted jobs found.
+2024-07-29 11:49:15.884 [VRB] Checking for aborted jobs...
+2024-07-29 11:49:15.884 [VRB] No newly aborted jobs found.
+2024-07-29 11:49:19.706 [INF] LogRequestLoggingMiddleware.Invoke
+2024-07-29 11:49:19.781 [INF] -------------Request-Begin------------
+2024-07-29 11:49:19.781 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Customers 
+QueryString:  
+Request Body: 
+2024-07-29 11:49:19.781 [INF] 
+
+2024-07-29 11:49:19.781 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Customers 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2024-07-29 11:49:19.781 [INF] -------------Request-End------------
+2024-07-29 11:49:20.885 [VRB] Checking for aborted jobs...
+2024-07-29 11:49:20.885 [VRB] No newly aborted jobs found.
+2024-07-29 11:49:25.887 [VRB] Checking for aborted jobs...
+2024-07-29 11:49:25.887 [VRB] No newly aborted jobs found.
+2024-07-29 11:49:30.891 [VRB] Checking for aborted jobs...
+2024-07-29 11:49:30.892 [VRB] No newly aborted jobs found.
+2024-07-29 11:49:34.931 [INF] LogRequestLoggingMiddleware.Invoke
+2024-07-29 11:49:34.936 [INF] -------------Request-Begin------------
+2024-07-29 11:49:34.937 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/CustomerPhones 
+QueryString:  
+Request Body: 
+2024-07-29 11:49:34.937 [INF] 
+
+2024-07-29 11:49:34.937 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/CustomerPhones 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2024-07-29 11:49:34.937 [INF] -------------Request-End------------
+2024-07-29 11:49:35.896 [VRB] Checking for aborted jobs...
+2024-07-29 11:49:35.896 [VRB] No newly aborted jobs found.
+2024-07-29 11:49:40.848 [DBG] Server egepc103:22472:8e7f712d heartbeat successfully sent
+2024-07-29 11:49:40.848 [VRB] Server egepc103:22472:8e7f712d waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:49:40.903 [VRB] Checking for aborted jobs...
+2024-07-29 11:49:40.903 [VRB] No newly aborted jobs found.
+2024-07-29 11:49:43.114 [INF] LogRequestLoggingMiddleware.Invoke
+2024-07-29 11:49:43.120 [INF] -------------Request-Begin------------
+2024-07-29 11:49:43.120 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Users 
+QueryString:  
+Request Body: 
+2024-07-29 11:49:43.120 [INF] 
+
+2024-07-29 11:49:43.120 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Users 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2024-07-29 11:49:43.121 [INF] -------------Request-End------------
+2024-07-29 11:49:45.921 [VRB] Checking for aborted jobs...
+2024-07-29 11:49:45.921 [VRB] No newly aborted jobs found.
+2024-07-29 11:49:50.931 [VRB] Checking for aborted jobs...
+2024-07-29 11:49:50.931 [VRB] No newly aborted jobs found.
+2024-07-29 11:49:55.939 [VRB] Checking for aborted jobs...
+2024-07-29 11:49:55.940 [VRB] No newly aborted jobs found.
+2024-07-29 11:50:00.944 [VRB] Checking for aborted jobs...
+2024-07-29 11:50:00.944 [VRB] No newly aborted jobs found.
+2024-07-29 11:50:05.959 [VRB] Checking for aborted jobs...
+2024-07-29 11:50:05.959 [VRB] No newly aborted jobs found.
+2024-07-29 11:50:10.864 [DBG] Server egepc103:22472:8e7f712d heartbeat successfully sent
+2024-07-29 11:50:10.865 [VRB] Server egepc103:22472:8e7f712d waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:50:10.970 [VRB] Checking for aborted jobs...
+2024-07-29 11:50:10.970 [VRB] No newly aborted jobs found.
+2024-07-29 11:50:15.974 [VRB] Checking for aborted jobs...
+2024-07-29 11:50:15.974 [VRB] No newly aborted jobs found.
+2024-07-29 11:50:20.975 [VRB] Checking for aborted jobs...
+2024-07-29 11:50:20.975 [VRB] No newly aborted jobs found.
+2024-07-29 11:50:25.983 [VRB] Checking for aborted jobs...
+2024-07-29 11:50:25.984 [VRB] No newly aborted jobs found.
+2024-07-29 11:50:30.988 [VRB] Checking for aborted jobs...
+2024-07-29 11:50:30.988 [VRB] No newly aborted jobs found.
+2024-07-29 11:50:35.999 [VRB] Checking for aborted jobs...
+2024-07-29 11:50:35.999 [VRB] No newly aborted jobs found.
+2024-07-29 11:50:38.120 [INF] LogRequestLoggingMiddleware.Invoke
+2024-07-29 11:50:38.149 [INF] -------------Request-Begin------------
+2024-07-29 11:50:38.149 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Users 
+QueryString:  
+Request Body: 
+2024-07-29 11:50:38.149 [INF] 
+
+2024-07-29 11:50:38.149 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Users 
+QueryString:  
+StatusCode: 403 
+Response Body: 
+2024-07-29 11:50:38.149 [INF] -------------Request-End------------
+2024-07-29 11:50:40.870 [DBG] Server egepc103:22472:8e7f712d heartbeat successfully sent
+2024-07-29 11:50:40.870 [VRB] Server egepc103:22472:8e7f712d waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:50:41.007 [VRB] Checking for aborted jobs...
+2024-07-29 11:50:41.007 [VRB] No newly aborted jobs found.
+2024-07-29 11:50:46.008 [VRB] Checking for aborted jobs...
+2024-07-29 11:50:46.008 [VRB] No newly aborted jobs found.
+2024-07-29 11:50:51.022 [VRB] Checking for aborted jobs...
+2024-07-29 11:50:51.022 [VRB] No newly aborted jobs found.
+2024-07-29 11:50:51.783 [INF] LogRequestLoggingMiddleware.Invoke
+2024-07-29 11:50:51.843 [INF] -------------Request-Begin------------
+2024-07-29 11:50:51.843 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Authorization 
+QueryString:  
+Request Body: {
+  "UserName": "serdar",
+  "Password": "serdar"
+}
+2024-07-29 11:50:51.844 [INF] 
+
+2024-07-29 11:50:51.844 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Authorization 
+QueryString:  
+StatusCode: 200 
+Response Body: {
+  "Data": {
+    "ExpireTime": "2024-07-29T11:55:51.8428708+03:00",
+    "AccessToken": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6InNlcmRhciIsIlVzZXJJZCI6IjExIiwiUm9sZSI6ImFkbWluIiwiU3RhdHVzIjoiMSIsIkVtYWlsIjoic2VyZGFyY29sYWsuOTlAaG90bWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJhZG1pbiIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJTZXJkYXIgw4dvbGFrIiwiZXhwIjoxNzIyMjQ2MzUxLCJpc3MiOiJQYXJhQXBpIiwiYXVkIjoiUGFyYUFwaSJ9.CPZQnkNMhoNVVySwCeZnf7kvpHyd8Jcbk0O5kWwt80I",
+    "UserName": "serdar",
+    "Id": 0
+  },
+  "Message": "Success",
+  "IsSuccess": true,
+  "ServerDate": "2024-07-29T08:50:51.8428716Z",
+  "ReferenceNumber": "6669f868-dfef-4a23-beb0-c68e2f568338"
+}
+2024-07-29 11:50:51.844 [INF] -------------Request-End------------
+2024-07-29 11:50:56.031 [VRB] Checking for aborted jobs...
+2024-07-29 11:50:56.031 [VRB] No newly aborted jobs found.
+2024-07-29 11:51:01.038 [VRB] Checking for aborted jobs...
+2024-07-29 11:51:01.039 [VRB] No newly aborted jobs found.
+2024-07-29 11:51:06.039 [VRB] Checking for aborted jobs...
+2024-07-29 11:51:06.039 [VRB] No newly aborted jobs found.
+2024-07-29 11:51:10.877 [DBG] Server egepc103:22472:8e7f712d heartbeat successfully sent
+2024-07-29 11:51:10.877 [VRB] Server egepc103:22472:8e7f712d waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:51:11.045 [VRB] Checking for aborted jobs...
+2024-07-29 11:51:11.045 [VRB] No newly aborted jobs found.
+2024-07-29 11:51:13.263 [INF] LogRequestLoggingMiddleware.Invoke
+2024-07-29 11:51:13.337 [WRN] Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2024-07-29 11:51:13.445 [INF] -------------Request-Begin------------
+2024-07-29 11:51:13.446 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Customers 
+QueryString:  
+Request Body: 
+2024-07-29 11:51:13.446 [INF] 
+
+2024-07-29 11:51:13.446 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Customers 
+QueryString:  
+StatusCode: 200 
+Response Body: {
+  "Data": [
+    {
+      "FirstName": "Serdar",
+      "LastName": "Çolak",
+      "IdentityNumber": "12534698712",
+      "Email": "serdarcolak.99@hotmail.com",
+      "CustomerNumber": 6505600,
+      "DateOfBirth": "1999-02-25T06:48:28.986",
+      "CustomerDetail": null,
+      "CustomerAddresses": [],
+      "CustomerPhones": [],
+      "Id": 2
+    }
+  ],
+  "Message": "Success",
+  "IsSuccess": true,
+  "ServerDate": "2024-07-29T08:51:13.4345666Z",
+  "ReferenceNumber": "cd150039-ae2d-410e-bd75-b115d09551f2"
+}
+2024-07-29 11:51:13.446 [INF] -------------Request-End------------
+2024-07-29 11:51:16.053 [VRB] Checking for aborted jobs...
+2024-07-29 11:51:16.053 [VRB] No newly aborted jobs found.
+2024-07-29 11:51:21.056 [VRB] Checking for aborted jobs...
+2024-07-29 11:51:21.056 [VRB] No newly aborted jobs found.
+2024-07-29 11:51:23.744 [INF] LogRequestLoggingMiddleware.Invoke
+2024-07-29 11:51:23.781 [INF] -------------Request-Begin------------
+2024-07-29 11:51:23.781 [INF] Http Request Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Users 
+QueryString:  
+Request Body: 
+2024-07-29 11:51:23.781 [INF] 
+
+2024-07-29 11:51:23.781 [INF] Http Response Information: 
+Schema:https 
+Host: localhost:44377 
+Path: /api/Users 
+QueryString:  
+StatusCode: 200 
+Response Body: {
+  "Data": [
+    {
+      "CustomerId": 2,
+      "UserName": "serdar",
+      "Password": "11a37959e906860a34392f586e544fd3",
+      "Email": "serdarcolak.99@hotmail.com",
+      "Role": "admin",
+      "FirstName": "Serdar",
+      "LastName": "Çolak",
+      "LastLoginDate": "2024-07-18T12:00:57.3239289",
+      "Status": 1,
+      "CustomerName": "Serdar Çolak",
+      "CustomerIdentityNumber": "12534698712",
+      "CustomerNumber": 6505600,
+      "Id": 11
+    }
+  ],
+  "Message": "Success",
+  "IsSuccess": true,
+  "ServerDate": "2024-07-29T08:51:23.7666783Z",
+  "ReferenceNumber": "ea7ce414-43e2-4424-b766-c773f874c185"
+}
+2024-07-29 11:51:23.781 [INF] -------------Request-End------------
+2024-07-29 11:51:26.067 [VRB] Checking for aborted jobs...
+2024-07-29 11:51:26.067 [VRB] No newly aborted jobs found.
+2024-07-29 11:51:31.071 [VRB] Checking for aborted jobs...
+2024-07-29 11:51:31.072 [VRB] No newly aborted jobs found.
+2024-07-29 11:51:36.077 [VRB] Checking for aborted jobs...
+2024-07-29 11:51:36.077 [VRB] No newly aborted jobs found.
+2024-07-29 11:51:40.885 [DBG] Server egepc103:22472:8e7f712d heartbeat successfully sent
+2024-07-29 11:51:40.886 [VRB] Server egepc103:22472:8e7f712d waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 11:51:41.085 [VRB] Checking for aborted jobs...
+2024-07-29 11:51:41.085 [VRB] No newly aborted jobs found.
+2024-07-29 11:51:46.089 [VRB] Checking for aborted jobs...
+2024-07-29 11:51:46.089 [VRB] No newly aborted jobs found.
+2024-07-29 15:43:50.524 [INF] Application is starting...
+2024-07-29 15:43:54.625 [INF] Start installing Hangfire SQL objects...
+2024-07-29 15:43:55.977 [INF] Hangfire SQL objects installed.
+2024-07-29 15:43:56.972 [INF] Starting Hangfire Server using job storage: 'SQL Server: EGEPC103@padb'
+2024-07-29 15:43:56.972 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-07-29 15:43:56.973 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-07-29 15:43:57.018 [DBG] Execution loop BackgroundServerProcess:c10c5cee has started in 29,8512 ms
+2024-07-29 15:43:57.079 [VRB] Server egepc103:22716:d938ed6c is announcing itself...
+2024-07-29 15:43:57.365 [INF] Server egepc103:22716:d938ed6c successfully announced in 285,1824 ms
+2024-07-29 15:43:57.384 [DBG] Execution loop ServerHeartbeatProcess:67b3b591 has started in 17,0432 ms
+2024-07-29 15:43:57.404 [INF] Server egepc103:22716:d938ed6c is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-07-29 15:43:57.410 [DBG] Execution loop ServerWatchdog:8dfa4254 has started in 5,7379 ms
+2024-07-29 15:43:57.415 [VRB] Server egepc103:22716:d938ed6c waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 15:43:57.443 [DBG] Execution loop ServerJobCancellationWatcher:49008a36 has started in 36,565 ms
+2024-07-29 15:43:57.444 [VRB] Checking for aborted jobs...
+2024-07-29 15:43:57.445 [VRB] No newly aborted jobs found.
+2024-07-29 15:43:57.477 [INF] 3 servers were removed due to timeout
+2024-07-29 15:43:57.514 [DBG] Execution loop CountersAggregator:1947f9bc has started in 28,2664 ms
+2024-07-29 15:43:57.529 [DBG] Execution loop ExpirationManager:c5bc97a8 has started in 84,9291 ms
+2024-07-29 15:43:57.530 [DBG] Aggregating records in 'Counter' table...
+2024-07-29 15:43:57.542 [DBG] Execution loop SqlServerHeartbeatProcess:0662ffb8 has started in 42,6451 ms
+2024-07-29 15:43:57.542 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-07-29 15:43:57.574 [DBG] Execution loop Worker:14d6b537 has started in 36,1216 ms
+2024-07-29 15:43:57.585 [DBG] Execution loop Worker:bb8f1e8b has started in 46,7453 ms
+2024-07-29 15:43:57.599 [DBG] Execution loop Worker:7c98d4aa has started in 60,9455 ms
+2024-07-29 15:43:57.626 [DBG] Execution loop Worker:a6eb3f75 has started in 87,6239 ms
+2024-07-29 15:43:57.633 [DBG] Execution loop Worker:227be757 has started in 93,388 ms
+2024-07-29 15:43:57.642 [VRB] Records from the 'Counter' table aggregated.
+2024-07-29 15:43:57.647 [DBG] Execution loop Worker:123dab89 has started in 108,7972 ms
+2024-07-29 15:43:57.662 [DBG] Execution loop Worker:a3feef90 has started in 124,3117 ms
+2024-07-29 15:43:57.683 [DBG] Execution loop Worker:89957cb4 has started in 144,784 ms
+2024-07-29 15:43:57.692 [VRB] Outdated records removed from the 'AggregatedCounter' table.
+2024-07-29 15:43:57.692 [DBG] Removing outdated records from the 'Job' table...
+2024-07-29 15:43:57.696 [DBG] Execution loop Worker:a6c110d1 has started in 158,2294 ms
+2024-07-29 15:43:57.722 [DBG] Execution loop Worker:78f5779b has started in 183,4905 ms
+2024-07-29 15:43:57.725 [DBG] Execution loop Worker:39b5afd7 has started in 187,1646 ms
+2024-07-29 15:43:57.731 [DBG] Execution loop Worker:be660346 has started in 192,5774 ms
+2024-07-29 15:43:57.752 [VRB] Outdated records removed from the 'Job' table.
+2024-07-29 15:43:57.752 [DBG] Removing outdated records from the 'List' table...
+2024-07-29 15:43:57.756 [DBG] Execution loop Worker:85fc8399 has started in 217,9592 ms
+2024-07-29 15:43:57.772 [DBG] Execution loop Worker:aafe369a has started in 233,8151 ms
+2024-07-29 15:43:57.793 [DBG] Execution loop Worker:fda49870 has started in 254,9208 ms
+2024-07-29 15:43:57.801 [DBG] Execution loop Worker:32394a0f has started in 258,3037 ms
+2024-07-29 15:43:57.804 [VRB] Outdated records removed from the 'List' table.
+2024-07-29 15:43:57.804 [DBG] Removing outdated records from the 'Set' table...
+2024-07-29 15:43:57.814 [DBG] Execution loop Worker:11b5bb4f has started in 274,6772 ms
+2024-07-29 15:43:57.817 [VRB] Outdated records removed from the 'Set' table.
+2024-07-29 15:43:57.817 [DBG] Removing outdated records from the 'Hash' table...
+2024-07-29 15:43:57.825 [DBG] Execution loop Worker:4ce1ba57 has started in 286,948 ms
+2024-07-29 15:43:57.830 [DBG] Execution loop Worker:7d6066fd has started in 292,3694 ms
+2024-07-29 15:43:57.842 [DBG] Execution loop Worker:1b08c7d4 has started in 304,3559 ms
+2024-07-29 15:43:57.844 [VRB] Outdated records removed from the 'Hash' table.
+2024-07-29 15:43:57.851 [DBG] Execution loop DelayedJobScheduler:36d10435 has started in 15,1583 ms
+2024-07-29 15:43:57.860 [INF] Server egepc103:22716:d938ed6c all the dispatchers started
+2024-07-29 15:43:57.863 [DBG] Execution loop RecurringJobScheduler:cd1e4bea has started in 17,6488 ms
+2024-07-29 15:44:02.462 [VRB] Checking for aborted jobs...
+2024-07-29 15:44:02.463 [VRB] No newly aborted jobs found.
+2024-07-29 15:44:07.476 [VRB] Checking for aborted jobs...
+2024-07-29 15:44:07.476 [VRB] No newly aborted jobs found.
+2024-07-29 15:44:12.479 [VRB] Checking for aborted jobs...
+2024-07-29 15:44:12.479 [VRB] No newly aborted jobs found.
+2024-07-29 15:44:17.487 [VRB] Checking for aborted jobs...
+2024-07-29 15:44:17.487 [VRB] No newly aborted jobs found.
+2024-07-29 15:50:42.229 [INF] Application is starting...
+2024-07-29 15:50:44.512 [INF] Start installing Hangfire SQL objects...
+2024-07-29 15:50:45.570 [INF] Hangfire SQL objects installed.
+2024-07-29 15:50:46.116 [VRB] Recurring job 'send-email-job' is being updated. RecurringJob: (), Changes: (Queue:default;Cron:*/5 * * * * *;TimeZoneId:UTC;Job:{"t":"Para.Bussiness.Job.EmailJobService, Para.Bussiness","m":"ProcessQueueAsync"};CreatedAt:1722257445891;NextExecution:1722257445000;V:2)
+2024-07-29 15:50:46.823 [INF] Starting Hangfire Server using job storage: 'SQL Server: EGEPC103@padb'
+2024-07-29 15:50:46.824 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-07-29 15:50:46.824 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-07-29 15:50:46.915 [DBG] Execution loop BackgroundServerProcess:961791bd has started in 51,2114 ms
+2024-07-29 15:50:46.940 [VRB] Server egepc103:14672:69424bf2 is announcing itself...
+2024-07-29 15:50:46.977 [INF] Server egepc103:14672:69424bf2 successfully announced in 36,5254 ms
+2024-07-29 15:50:46.985 [DBG] Execution loop ServerHeartbeatProcess:90f84cfc has started in 6,2835 ms
+2024-07-29 15:50:46.986 [INF] Server egepc103:14672:69424bf2 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-07-29 15:50:46.991 [DBG] Execution loop ServerWatchdog:164d3db5 has started in 5,0483 ms
+2024-07-29 15:50:46.996 [DBG] Execution loop ServerJobCancellationWatcher:895aff8b has started in 7,536 ms
+2024-07-29 15:50:46.997 [VRB] Checking for aborted jobs...
+2024-07-29 15:50:46.997 [VRB] Server egepc103:14672:69424bf2 waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 15:50:46.998 [VRB] No newly aborted jobs found.
+2024-07-29 15:50:47.003 [DBG] Execution loop ExpirationManager:5b958309 has started in 6,43 ms
+2024-07-29 15:50:47.004 [INF] 1 servers were removed due to timeout
+2024-07-29 15:50:47.009 [DBG] Execution loop CountersAggregator:c09d3864 has started in 8,7296 ms
+2024-07-29 15:50:47.010 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-07-29 15:50:47.012 [DBG] Aggregating records in 'Counter' table...
+2024-07-29 15:50:47.014 [DBG] Execution loop SqlServerHeartbeatProcess:248e1858 has started in 7,1533 ms
+2024-07-29 15:50:47.025 [DBG] Execution loop Worker:7a5af504 has started in 15,0265 ms
+2024-07-29 15:50:47.027 [DBG] Execution loop Worker:b3f6594c has started in 17,1852 ms
+2024-07-29 15:50:47.033 [DBG] Execution loop Worker:ad5602cb has started in 22,8795 ms
+2024-07-29 15:50:47.038 [DBG] Execution loop Worker:6e6c7966 has started in 27,6477 ms
+2024-07-29 15:50:47.042 [DBG] Execution loop Worker:bce08aaf has started in 32,5708 ms
+2024-07-29 15:50:47.045 [VRB] Records from the 'Counter' table aggregated.
+2024-07-29 15:50:47.047 [DBG] Execution loop Worker:de405ff3 has started in 36,8048 ms
+2024-07-29 15:50:47.052 [DBG] Execution loop Worker:b3568475 has started in 42,2128 ms
+2024-07-29 15:50:47.058 [DBG] Execution loop Worker:0df57c55 has started in 48,0807 ms
+2024-07-29 15:50:47.062 [VRB] Outdated records removed from the 'AggregatedCounter' table.
+2024-07-29 15:50:47.062 [DBG] Execution loop Worker:a1de713f has started in 52,4856 ms
+2024-07-29 15:50:47.063 [DBG] Removing outdated records from the 'Job' table...
+2024-07-29 15:50:47.067 [DBG] Execution loop Worker:e2bab1a7 has started in 56,6534 ms
+2024-07-29 15:50:47.071 [DBG] Execution loop Worker:12984e61 has started in 60,4961 ms
+2024-07-29 15:50:47.076 [DBG] Execution loop Worker:6db7ccd7 has started in 65,7743 ms
+2024-07-29 15:50:47.081 [DBG] Execution loop Worker:71136896 has started in 70,908 ms
+2024-07-29 15:50:47.087 [DBG] Execution loop Worker:25c5a9d6 has started in 76,9426 ms
+2024-07-29 15:50:47.091 [DBG] Execution loop Worker:1d1426d6 has started in 81,3393 ms
+2024-07-29 15:50:47.100 [DBG] Execution loop Worker:d17cdd39 has started in 90,3759 ms
+2024-07-29 15:50:47.103 [DBG] Execution loop Worker:c3f1b110 has started in 92,8075 ms
+2024-07-29 15:50:47.107 [VRB] Outdated records removed from the 'Job' table.
+2024-07-29 15:50:47.108 [DBG] Removing outdated records from the 'List' table...
+2024-07-29 15:50:47.111 [DBG] Execution loop Worker:fdd06997 has started in 100,8501 ms
+2024-07-29 15:50:47.117 [DBG] Execution loop Worker:4c5d45cd has started in 107,1294 ms
+2024-07-29 15:50:47.140 [DBG] Execution loop Worker:dd52ef11 has started in 130,6301 ms
+2024-07-29 15:50:47.141 [VRB] Outdated records removed from the 'List' table.
+2024-07-29 15:50:47.141 [DBG] Removing outdated records from the 'Set' table...
+2024-07-29 15:50:47.146 [INF] Server egepc103:14672:69424bf2 all the dispatchers started
+2024-07-29 15:50:47.146 [DBG] Execution loop DelayedJobScheduler:dd92569c has started in 29,3759 ms
+2024-07-29 15:50:47.150 [DBG] Execution loop RecurringJobScheduler:d83f0af5 has started in 8,3677 ms
+2024-07-29 15:50:47.152 [VRB] Outdated records removed from the 'Set' table.
+2024-07-29 15:50:47.152 [DBG] Removing outdated records from the 'Hash' table...
+2024-07-29 15:50:47.161 [VRB] Outdated records removed from the 'Hash' table.
+2024-07-29 15:50:47.295 [VRB] Recurring job 'send-email-job' is being updated. RecurringJob: (CreatedAt:1722257445891;Cron:*/5 * * * * *;Job:{"t":"Para.Bussiness.Job.EmailJobService, Para.Bussiness","m":"ProcessQueueAsync"};NextExecution:1722257445000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722257447183;NextExecution:1722257450000;LastJobId:1)
+2024-07-29 15:50:47.427 [DBG] 1 recurring job(s) processed by scheduler.
+2024-07-29 15:50:52.011 [VRB] Checking for aborted jobs...
+2024-07-29 15:50:52.012 [VRB] No newly aborted jobs found.
+2024-07-29 20:46:29.573 [INF] Application is starting...
+2024-07-29 20:46:36.858 [INF] Start installing Hangfire SQL objects...
+2024-07-29 20:46:52.236 [WRN] An exception occurred while trying to perform the migration. Retrying...
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Hangfire.SqlServer.SqlServerStorage.CreateAndOpenConnection() in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 365
+   at Hangfire.SqlServer.SqlServerStorage.UseConnection[T](DbConnection dedicatedConnection, Func`2 func) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 256
+   at Hangfire.SqlServer.SqlServerStorage.UseConnection(DbConnection dedicatedConnection, Action`1 action) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 243
+   at Hangfire.SqlServer.SqlServerStorage.Initialize() in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 424
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2024-07-29 20:46:52.339 [WRN] An exception occurred while trying to perform the migration. Retrying...
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Hangfire.SqlServer.SqlServerStorage.CreateAndOpenConnection() in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 365
+   at Hangfire.SqlServer.SqlServerStorage.UseConnection[T](DbConnection dedicatedConnection, Func`2 func) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 256
+   at Hangfire.SqlServer.SqlServerStorage.UseConnection(DbConnection dedicatedConnection, Action`1 action) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 243
+   at Hangfire.SqlServer.SqlServerStorage.Initialize() in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 424
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2024-07-29 20:46:52.381 [WRN] An exception occurred while trying to perform the migration.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Hangfire.SqlServer.SqlServerStorage.CreateAndOpenConnection() in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 365
+   at Hangfire.SqlServer.SqlServerStorage.UseConnection[T](DbConnection dedicatedConnection, Func`2 func) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 256
+   at Hangfire.SqlServer.SqlServerStorage.UseConnection(DbConnection dedicatedConnection, Action`1 action) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 243
+   at Hangfire.SqlServer.SqlServerStorage.Initialize() in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 424
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2024-07-29 20:46:52.387 [WRN] Was unable to perform the Hangfire schema migration due to an exception. Ignore this message unless you've just installed or upgraded Hangfire.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Hangfire.SqlServer.SqlServerStorage.CreateAndOpenConnection() in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 365
+   at Hangfire.SqlServer.SqlServerStorage.UseConnection[T](DbConnection dedicatedConnection, Func`2 func) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 256
+   at Hangfire.SqlServer.SqlServerStorage.UseConnection(DbConnection dedicatedConnection, Action`1 action) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 243
+   at Hangfire.SqlServer.SqlServerStorage.Initialize() in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 424
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2024-07-29 20:46:52.446 [ERR] Was unable to use the TryAutoDetectSchemaDependentOptions option due to an exception.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Hangfire.SqlServer.SqlServerStorage.CreateAndOpenConnection() in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 365
+   at Hangfire.SqlServer.SqlServerStorage.UseConnection[T](DbConnection dedicatedConnection, Func`2 func) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 256
+   at Hangfire.SqlServer.SqlServerStorage.UseConnection(DbConnection dedicatedConnection, Action`1 action) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 243
+   at Hangfire.SqlServer.SqlServerStorage.Initialize() in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 455
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2024-07-29 20:49:15.714 [INF] Application is starting...
+2024-07-29 20:49:17.143 [INF] Start installing Hangfire SQL objects...
+2024-07-29 20:49:32.819 [WRN] An exception occurred while trying to perform the migration. Retrying...
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Hangfire.SqlServer.SqlServerStorage.CreateAndOpenConnection() in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 365
+   at Hangfire.SqlServer.SqlServerStorage.UseConnection[T](DbConnection dedicatedConnection, Func`2 func) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 256
+   at Hangfire.SqlServer.SqlServerStorage.UseConnection(DbConnection dedicatedConnection, Action`1 action) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 243
+   at Hangfire.SqlServer.SqlServerStorage.Initialize() in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 424
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2024-07-29 20:49:32.933 [WRN] An exception occurred while trying to perform the migration. Retrying...
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Hangfire.SqlServer.SqlServerStorage.CreateAndOpenConnection() in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 365
+   at Hangfire.SqlServer.SqlServerStorage.UseConnection[T](DbConnection dedicatedConnection, Func`2 func) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 256
+   at Hangfire.SqlServer.SqlServerStorage.UseConnection(DbConnection dedicatedConnection, Action`1 action) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 243
+   at Hangfire.SqlServer.SqlServerStorage.Initialize() in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 424
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2024-07-29 20:49:32.973 [WRN] An exception occurred while trying to perform the migration.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Hangfire.SqlServer.SqlServerStorage.CreateAndOpenConnection() in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 365
+   at Hangfire.SqlServer.SqlServerStorage.UseConnection[T](DbConnection dedicatedConnection, Func`2 func) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 256
+   at Hangfire.SqlServer.SqlServerStorage.UseConnection(DbConnection dedicatedConnection, Action`1 action) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 243
+   at Hangfire.SqlServer.SqlServerStorage.Initialize() in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 424
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2024-07-29 20:49:32.979 [WRN] Was unable to perform the Hangfire schema migration due to an exception. Ignore this message unless you've just installed or upgraded Hangfire.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Hangfire.SqlServer.SqlServerStorage.CreateAndOpenConnection() in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 365
+   at Hangfire.SqlServer.SqlServerStorage.UseConnection[T](DbConnection dedicatedConnection, Func`2 func) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 256
+   at Hangfire.SqlServer.SqlServerStorage.UseConnection(DbConnection dedicatedConnection, Action`1 action) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 243
+   at Hangfire.SqlServer.SqlServerStorage.Initialize() in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 424
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2024-07-29 20:49:33.017 [ERR] Was unable to use the TryAutoDetectSchemaDependentOptions option due to an exception.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Hangfire.SqlServer.SqlServerStorage.CreateAndOpenConnection() in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 365
+   at Hangfire.SqlServer.SqlServerStorage.UseConnection[T](DbConnection dedicatedConnection, Func`2 func) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 256
+   at Hangfire.SqlServer.SqlServerStorage.UseConnection(DbConnection dedicatedConnection, Action`1 action) in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 243
+   at Hangfire.SqlServer.SqlServerStorage.Initialize() in C:\projects\hangfire-525\src\Hangfire.SqlServer\SqlServerStorage.cs:line 455
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20
+2024-07-29 20:55:52.336 [INF] Application is starting...
+2024-07-29 20:55:54.719 [INF] Start installing Hangfire SQL objects...
+2024-07-29 20:55:55.782 [INF] Hangfire SQL objects installed.
+2024-07-29 20:55:59.528 [VRB] Recurring job 'send-email-job' is being updated. RecurringJob: (), Changes: (Queue:default;Cron:* * * * *;TimeZoneId:UTC;Job:{"t":"Para.Bussiness.Job.EmailJobService, Para.Bussiness","m":"ProcessQueueAsync"};CreatedAt:1722275757613;NextExecution:1722275760000;V:2)
+2024-07-29 20:56:00.178 [INF] Starting Hangfire Server using job storage: 'SQL Server: DESKTOP-R3DKO9V\SQLEXPRESS@padb'
+2024-07-29 20:56:00.179 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-07-29 20:56:00.180 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-07-29 20:56:00.197 [DBG] Execution loop BackgroundServerProcess:ebe3d71f has started in 7,2794 ms
+2024-07-29 20:56:00.212 [VRB] Server desktop-r3dko9v:2256:3eff6447 is announcing itself...
+2024-07-29 20:56:00.238 [INF] Server desktop-r3dko9v:2256:3eff6447 successfully announced in 24,1633 ms
+2024-07-29 20:56:00.246 [DBG] Execution loop ServerHeartbeatProcess:64403ff8 has started in 4,802 ms
+2024-07-29 20:56:00.247 [INF] Server desktop-r3dko9v:2256:3eff6447 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-07-29 20:56:00.251 [DBG] Execution loop ServerWatchdog:70e74aa7 has started in 2,4555 ms
+2024-07-29 20:56:00.254 [DBG] Execution loop ServerJobCancellationWatcher:cd9b391f has started in 4,3762 ms
+2024-07-29 20:56:00.256 [VRB] Server desktop-r3dko9v:2256:3eff6447 waiting for 00:00:30 delay before sending a heartbeat
+2024-07-29 20:56:00.257 [DBG] Execution loop ExpirationManager:1d8f7b4b has started in 3,0122 ms
+2024-07-29 20:56:00.259 [VRB] Checking for aborted jobs...
+2024-07-29 20:56:00.262 [DBG] Execution loop CountersAggregator:93f4945b has started in 6,7053 ms
+2024-07-29 20:56:00.265 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-07-29 20:56:00.265 [VRB] No newly aborted jobs found.
+2024-07-29 20:56:00.270 [DBG] Aggregating records in 'Counter' table...
+2024-07-29 20:56:00.265 [DBG] Execution loop SqlServerHeartbeatProcess:cb413304 has started in 6,636 ms
+2024-07-29 20:56:00.268 [DBG] Execution loop Worker:6fd22191 has started in 5,1644 ms
+2024-07-29 20:56:00.272 [DBG] Execution loop Worker:b2f87638 has started in 8,659 ms
+2024-07-29 20:56:00.275 [DBG] Execution loop Worker:d15b8d92 has started in 12,3475 ms
+2024-07-29 20:56:00.279 [DBG] Execution loop Worker:06a5113c has started in 16,2793 ms
+2024-07-29 20:56:00.281 [DBG] Execution loop Worker:306d6393 has started in 17,6927 ms
+2024-07-29 20:56:00.307 [VRB] Outdated records removed from the 'AggregatedCounter' table.
+2024-07-29 20:56:00.284 [DBG] Execution loop Worker:5e6559d7 has started in 20,9263 ms
+2024-07-29 20:56:00.317 [DBG] Removing outdated records from the 'Job' table...
+2024-07-29 20:56:00.289 [DBG] Execution loop Worker:c689096a has started in 25,5059 ms
+2024-07-29 20:56:00.289 [DBG] Execution loop Worker:6813bc01 has started in 26,3705 ms
+2024-07-29 20:56:00.335 [INF] Server desktop-r3dko9v:2256:3eff6447 all the dispatchers started
+2024-07-29 20:56:00.293 [DBG] Execution loop Worker:3e843075 has started in 29,277 ms
+2024-07-29 20:56:00.296 [DBG] Execution loop Worker:1baa78b3 has started in 32,6136 ms
+2024-07-29 20:56:00.300 [DBG] Execution loop Worker:8d2f7426 has started in 36,4226 ms
+2024-07-29 20:56:00.303 [DBG] Execution loop Worker:26f2fd38 has started in 40,0328 ms
+2024-07-29 20:56:00.310 [DBG] Execution loop Worker:57d013fd has started in 44,9161 ms
+2024-07-29 20:56:00.315 [DBG] Execution loop Worker:0340f939 has started in 51,6149 ms
+2024-07-29 20:56:00.317 [DBG] Execution loop Worker:e07bb4ec has started in 54,0403 ms
+2024-07-29 20:56:00.319 [DBG] Execution loop Worker:a102270b has started in 55,6923 ms
+2024-07-29 20:56:00.322 [DBG] Execution loop Worker:56c05314 has started in 58,8152 ms
+2024-07-29 20:56:00.326 [DBG] Execution loop Worker:56d88ed1 has started in 63,2174 ms
+2024-07-29 20:56:00.328 [DBG] Execution loop Worker:3206e1d5 has started in 64,9788 ms
+2024-07-29 20:56:00.331 [DBG] Execution loop Worker:007fa81b has started in 68,0447 ms
+2024-07-29 20:56:00.335 [DBG] Execution loop DelayedJobScheduler:f446dd49 has started in 6,5063 ms
+2024-07-29 20:56:00.338 [DBG] Execution loop RecurringJobScheduler:a167f5ce has started in 7,0856 ms
+2024-07-29 20:56:00.426 [VRB] Records from the 'Counter' table aggregated.
+2024-07-29 20:56:00.435 [VRB] Outdated records removed from the 'Job' table.
+2024-07-29 20:56:00.436 [DBG] Removing outdated records from the 'List' table...
+2024-07-29 20:56:00.462 [VRB] Outdated records removed from the 'List' table.
+2024-07-29 20:56:00.466 [DBG] Removing outdated records from the 'Set' table...
+2024-07-29 20:56:00.498 [VRB] Outdated records removed from the 'Set' table.
+2024-07-29 20:56:00.499 [DBG] Removing outdated records from the 'Hash' table...
+2024-07-29 20:56:00.510 [VRB] Outdated records removed from the 'Hash' table.
+2024-07-29 20:56:00.579 [VRB] Recurring job 'send-email-job' is being updated. RecurringJob: (CreatedAt:1722275757613;Cron:* * * * *;Job:{"t":"Para.Bussiness.Job.EmailJobService, Para.Bussiness","m":"ProcessQueueAsync"};NextExecution:1722275760000;Queue:default;TimeZoneId:UTC;V:2), Changes: (LastExecution:1722275760479;NextExecution:1722275820000;LastJobId:1)
+2024-07-29 20:56:00.677 [DBG] 1 recurring job(s) processed by scheduler.
